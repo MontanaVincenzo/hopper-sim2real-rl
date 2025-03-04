@@ -1,0 +1,1 @@
+{"source_to_source_mean": 1130.22552268, "source_to_source_std": 242.0699995248091, "source_to_target_mean": 823.6170285000001, "source_to_target_std": 326.10751939730665, "delta": 0.25, "timesteps": 1000000, "_timestamp": 1737632139.2945163, "_runtime": 1916.695959329605, "_step": 0, "_wandb": {"runtime": 1916}}

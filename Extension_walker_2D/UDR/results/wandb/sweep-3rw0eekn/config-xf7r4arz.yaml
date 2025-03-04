@@ -1,0 +1,8 @@
+wandb_version: 1
+
+delta_foot_mass:
+  value: 0
+delta_leg_mass:
+  value: 0
+delta_thigh_mass:
+  value: 0.4

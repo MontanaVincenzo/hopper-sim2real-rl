@@ -1,0 +1,30 @@
+2025-01-22 00:43:20,934 INFO    Thread-11 :42944 [wandb_setup.py:_flush():68] Current SDK version is 0.19.2
+2025-01-22 00:43:20,934 INFO    Thread-11 :42944 [wandb_setup.py:_flush():68] Configure stats pid to 42944
+2025-01-22 00:43:20,934 INFO    Thread-11 :42944 [wandb_setup.py:_flush():68] Loading settings from /home/vince/.config/wandb/settings
+2025-01-22 00:43:20,934 INFO    Thread-11 :42944 [wandb_setup.py:_flush():68] Loading settings from /home/vince/project-sim2real-montana-scavone/Extension_walker_2D/PPO/wandb/settings
+2025-01-22 00:43:20,934 INFO    Thread-11 :42944 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-01-22 00:43:20,934 INFO    Thread-11 :42944 [wandb_init.py:_log_setup():523] Logging user logs to ./source_logs_train/run_2/wandb/run-20250122_004320-2dze5irt/logs/debug.log
+2025-01-22 00:43:20,934 INFO    Thread-11 :42944 [wandb_init.py:_log_setup():524] Logging internal logs to ./source_logs_train/run_2/wandb/run-20250122_004320-2dze5irt/logs/debug-internal.log
+2025-01-22 00:43:20,934 INFO    Thread-11 :42944 [wandb_init.py:init():641] calling init triggers
+2025-01-22 00:43:20,934 INFO    Thread-11 :42944 [wandb_init.py:init():647] wandb.init called with sweep_config: {'clip_range': 0.34387149392250504, 'ent_coef': 0.0012656387096912597, 'learning_rate': 0.0003871687969324724}
+config: {}
+2025-01-22 00:43:20,934 INFO    Thread-11 :42944 [wandb_init.py:init():674] starting backend
+2025-01-22 00:43:21,140 INFO    Thread-11 :42944 [wandb_init.py:init():678] sending inform_init request
+2025-01-22 00:43:21,146 INFO    Thread-11 :42944 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-01-22 00:43:21,146 INFO    Thread-11 :42944 [wandb_init.py:init():693] backend started and connected
+2025-01-22 00:43:21,146 INFO    Thread-11 :42944 [wandb_run.py:_config_callback():1283] config_cb None None {'clip_range': 0.34387149392250504, 'ent_coef': 0.0012656387096912597, 'learning_rate': 0.0003871687969324724}
+2025-01-22 00:43:21,147 INFO    Thread-11 :42944 [wandb_init.py:init():786] updated telemetry
+2025-01-22 00:43:21,154 INFO    Thread-11 :42944 [wandb_init.py:init():818] communicating run to backend with 90.0 second timeout
+2025-01-22 00:43:21,522 INFO    Thread-11 :42944 [wandb_init.py:init():868] starting run threads in backend
+2025-01-22 00:43:21,567 INFO    Thread-11 :42944 [wandb_run.py:_console_start():2415] atexit reg
+2025-01-22 00:43:21,567 INFO    Thread-11 :42944 [wandb_run.py:_redirect():2265] redirect: wrap_raw
+2025-01-22 00:43:21,567 INFO    Thread-11 :42944 [wandb_run.py:_redirect():2330] Wrapping output streams.
+2025-01-22 00:43:21,567 INFO    Thread-11 :42944 [wandb_run.py:_redirect():2355] Redirects installed.
+2025-01-22 00:43:21,567 INFO    Thread-11 :42944 [wandb_init.py:init():910] run started, returning control to user process
+2025-01-22 01:25:58,288 INFO    Thread-11 :42944 [wandb_run.py:_finish():2140] finishing run s322977-politecnico-di-torino/custom-walker-ppo/2dze5irt
+2025-01-22 01:25:58,288 INFO    Thread-11 :42944 [wandb_run.py:_atexit_cleanup():2380] got exitcode: 0
+2025-01-22 01:25:58,289 INFO    Thread-11 :42944 [wandb_run.py:_restore():2362] restore
+2025-01-22 01:25:58,289 INFO    Thread-11 :42944 [wandb_run.py:_restore():2368] restore done
+2025-01-22 01:26:03,166 INFO    Thread-11 :42944 [wandb_run.py:_footer_history_summary_info():3984] rendering history
+2025-01-22 01:26:03,167 INFO    Thread-11 :42944 [wandb_run.py:_footer_history_summary_info():4016] rendering summary
+2025-01-22 01:26:03,169 INFO    Thread-11 :42944 [wandb_run.py:_footer_sync_info():3945] logging synced files

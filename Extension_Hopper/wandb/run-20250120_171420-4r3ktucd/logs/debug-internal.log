@@ -1,0 +1,100 @@
+2025-01-20 17:14:20,741 INFO    StreamThr :71361 [internal.py:wandb_internal():86] W&B internal server running at pid: 71361, started at: 2025-01-20 17:14:20.740732
+2025-01-20 17:14:20,743 DEBUG   HandlerThread:71361 [handler.py:handle_request():146] handle_request: status
+2025-01-20 17:14:20,743 INFO    WriterThread:71361 [datastore.py:open_for_write():87] open: /home/ale/project-sim2real-montana-scavone/Extension/wandb/run-20250120_171420-4r3ktucd/run-4r3ktucd.wandb
+2025-01-20 17:14:20,743 DEBUG   SenderThread:71361 [sender.py:send():379] send: header
+2025-01-20 17:14:20,753 DEBUG   SenderThread:71361 [sender.py:send():379] send: run
+2025-01-20 17:14:21,226 INFO    SenderThread:71361 [dir_watcher.py:__init__():211] watching files in: /home/ale/project-sim2real-montana-scavone/Extension/wandb/run-20250120_171420-4r3ktucd/files
+2025-01-20 17:14:21,226 INFO    SenderThread:71361 [sender.py:_start_run_threads():1124] run started: 4r3ktucd with start time 1737389660.740452
+2025-01-20 17:14:21,233 DEBUG   HandlerThread:71361 [handler.py:handle_request():146] handle_request: check_version
+2025-01-20 17:14:21,234 DEBUG   SenderThread:71361 [sender.py:send_request():406] send_request: check_version
+2025-01-20 17:14:21,313 DEBUG   HandlerThread:71361 [handler.py:handle_request():146] handle_request: run_start
+2025-01-20 17:14:21,321 DEBUG   HandlerThread:71361 [system_info.py:__init__():26] System info init
+2025-01-20 17:14:21,321 DEBUG   HandlerThread:71361 [system_info.py:__init__():41] System info init done
+2025-01-20 17:14:21,321 INFO    HandlerThread:71361 [system_monitor.py:start():194] Starting system monitor
+2025-01-20 17:14:21,321 INFO    SystemMonitor:71361 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-01-20 17:14:21,321 INFO    HandlerThread:71361 [system_monitor.py:probe():214] Collecting system info
+2025-01-20 17:14:21,322 INFO    SystemMonitor:71361 [interfaces.py:start():190] Started cpu monitoring
+2025-01-20 17:14:21,323 INFO    SystemMonitor:71361 [interfaces.py:start():190] Started disk monitoring
+2025-01-20 17:14:21,323 INFO    SystemMonitor:71361 [interfaces.py:start():190] Started gpu monitoring
+2025-01-20 17:14:21,324 INFO    SystemMonitor:71361 [interfaces.py:start():190] Started memory monitoring
+2025-01-20 17:14:21,325 INFO    SystemMonitor:71361 [interfaces.py:start():190] Started network monitoring
+2025-01-20 17:14:21,330 DEBUG   HandlerThread:71361 [system_info.py:probe():150] Probing system
+2025-01-20 17:14:21,337 ERROR   gpu       :71361 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2025-01-20 17:14:21,337 ERROR   gpu       :71361 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2025-01-20 17:14:21,374 DEBUG   HandlerThread:71361 [system_info.py:_probe_git():135] Probing git
+2025-01-20 17:14:21,378 DEBUG   HandlerThread:71361 [system_info.py:_probe_git():143] Probing git done
+2025-01-20 17:14:21,378 DEBUG   HandlerThread:71361 [system_info.py:probe():198] Probing system done
+2025-01-20 17:14:21,379 DEBUG   HandlerThread:71361 [system_monitor.py:probe():223] {'os': 'Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.17', 'python': '3.8.20', 'heartbeatAt': '2025-01-20T16:14:21.330744', 'startedAt': '2025-01-20T16:14:20.737981', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/ale/project-sim2real-montana-scavone/Extension/train.py', 'codePathLocal': 'train.py', 'codePath': 'Extension/train.py', 'git': {'remote': 'git@github.com:PolitoVandal/project-sim2real-montana-scavone.git', 'commit': '64bbbf0ff624b2ace2666227e160b445d27133bf'}, 'email': 'alex.scavone@hotmail.it', 'root': '/home/ale/project-sim2real-montana-scavone', 'host': 'DESKTOP-ALE', 'username': 'ale', 'executable': '/home/ale/miniconda3/envs/rl/bin/python', 'cpu_count': 12, 'cpu_count_logical': 24, 'cpu_freq': {'current': 2112.008000000001, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2112.008, 'min': 0.0, 'max': 0.0}, {'current': 2112.008, 'min': 0.0, 'max': 0.0}, {'current': 2112.008, 'min': 0.0, 'max': 0.0}, {'current': 2112.008, 'min': 0.0, 'max': 0.0}, {'current': 2112.008, 'min': 0.0, 'max': 0.0}, {'current': 2112.008, 'min': 0.0, 'max': 0.0}, {'current': 2112.008, 'min': 0.0, 'max': 0.0}, {'current': 2112.008, 'min': 0.0, 'max': 0.0}, {'current': 2112.008, 'min': 0.0, 'max': 0.0}, {'current': 2112.008, 'min': 0.0, 'max': 0.0}, {'current': 2112.008, 'min': 0.0, 'max': 0.0}, {'current': 2112.008, 'min': 0.0, 'max': 0.0}, {'current': 2112.008, 'min': 0.0, 'max': 0.0}, {'current': 2112.008, 'min': 0.0, 'max': 0.0}, {'current': 2112.008, 'min': 0.0, 'max': 0.0}, {'current': 2112.008, 'min': 0.0, 'max': 0.0}, {'current': 2112.008, 'min': 0.0, 'max': 0.0}, {'current': 2112.008, 'min': 0.0, 'max': 0.0}, {'current': 2112.008, 'min': 0.0, 'max': 0.0}, {'current': 2112.008, 'min': 0.0, 'max': 0.0}, {'current': 2112.008, 'min': 0.0, 'max': 0.0}, {'current': 2112.008, 'min': 0.0, 'max': 0.0}, {'current': 2112.008, 'min': 0.0, 'max': 0.0}, {'current': 2112.008, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 1006.853931427002, 'used': 15.7052001953125}}, 'gpu': 'NVIDIA GeForce RTX 4060', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4060', 'memory_total': 8585740288}], 'memory': {'total': 15.534679412841797}}
+2025-01-20 17:14:21,379 INFO    HandlerThread:71361 [system_monitor.py:probe():224] Finished collecting system info
+2025-01-20 17:14:21,379 INFO    HandlerThread:71361 [system_monitor.py:probe():227] Publishing system info
+2025-01-20 17:14:21,379 DEBUG   HandlerThread:71361 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2025-01-20 17:14:21,744 DEBUG   HandlerThread:71361 [system_info.py:_save_conda():222] Saving conda packages done
+2025-01-20 17:14:21,744 INFO    HandlerThread:71361 [system_monitor.py:probe():229] Finished publishing system info
+2025-01-20 17:14:21,747 DEBUG   SenderThread:71361 [sender.py:send():379] send: files
+2025-01-20 17:14:21,747 INFO    SenderThread:71361 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2025-01-20 17:14:21,783 DEBUG   HandlerThread:71361 [handler.py:handle_request():146] handle_request: python_packages
+2025-01-20 17:14:21,783 DEBUG   SenderThread:71361 [sender.py:send_request():406] send_request: python_packages
+2025-01-20 17:14:21,785 DEBUG   HandlerThread:71361 [handler.py:handle_request():146] handle_request: internal_messages
+2025-01-20 17:14:21,785 DEBUG   HandlerThread:71361 [handler.py:handle_request():146] handle_request: stop_status
+2025-01-20 17:14:21,786 DEBUG   SenderThread:71361 [sender.py:send_request():406] send_request: stop_status
+2025-01-20 17:14:21,972 DEBUG   SenderThread:71361 [sender.py:send():379] send: telemetry
+2025-01-20 17:14:22,226 INFO    Thread-12 :71361 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ale/project-sim2real-montana-scavone/Extension/wandb/run-20250120_171420-4r3ktucd/files/requirements.txt
+2025-01-20 17:14:22,226 INFO    Thread-12 :71361 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ale/project-sim2real-montana-scavone/Extension/wandb/run-20250120_171420-4r3ktucd/files/wandb-metadata.json
+2025-01-20 17:14:22,226 INFO    Thread-12 :71361 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ale/project-sim2real-montana-scavone/Extension/wandb/run-20250120_171420-4r3ktucd/files/conda-environment.yaml
+2025-01-20 17:14:22,294 INFO    wandb-upload_0:71361 [upload_job.py:push():131] Uploaded file /tmp/tmp73viz9sqwandb/ezbof7np-wandb-metadata.json
+2025-01-20 17:14:23,342 ERROR   gpu       :71361 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2025-01-20 17:14:23,343 ERROR   gpu       :71361 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2025-01-20 17:14:25,350 ERROR   gpu       :71361 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2025-01-20 17:14:25,350 ERROR   gpu       :71361 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2025-01-20 17:14:25,973 DEBUG   HandlerThread:71361 [handler.py:handle_request():146] handle_request: status_report
+2025-01-20 17:14:27,352 ERROR   gpu       :71361 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2025-01-20 17:14:27,353 ERROR   gpu       :71361 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2025-01-20 17:14:29,354 ERROR   gpu       :71361 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2025-01-20 17:14:29,355 ERROR   gpu       :71361 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2025-01-20 17:14:30,974 DEBUG   HandlerThread:71361 [handler.py:handle_request():146] handle_request: status_report
+2025-01-20 17:14:31,360 ERROR   gpu       :71361 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2025-01-20 17:14:31,360 ERROR   gpu       :71361 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2025-01-20 17:14:33,367 ERROR   gpu       :71361 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2025-01-20 17:14:33,367 ERROR   gpu       :71361 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2025-01-20 17:14:35,373 ERROR   gpu       :71361 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2025-01-20 17:14:35,374 ERROR   gpu       :71361 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2025-01-20 17:14:35,974 DEBUG   HandlerThread:71361 [handler.py:handle_request():146] handle_request: status_report
+2025-01-20 17:14:37,379 ERROR   gpu       :71361 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2025-01-20 17:14:37,379 ERROR   gpu       :71361 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2025-01-20 17:14:39,386 ERROR   gpu       :71361 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2025-01-20 17:14:39,386 ERROR   gpu       :71361 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2025-01-20 17:14:40,974 DEBUG   HandlerThread:71361 [handler.py:handle_request():146] handle_request: status_report
+2025-01-20 17:14:41,392 ERROR   gpu       :71361 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2025-01-20 17:14:41,392 ERROR   gpu       :71361 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2025-01-20 17:14:43,398 ERROR   gpu       :71361 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2025-01-20 17:14:43,398 ERROR   gpu       :71361 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2025-01-20 17:14:45,404 ERROR   gpu       :71361 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2025-01-20 17:14:45,404 ERROR   gpu       :71361 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2025-01-20 17:14:45,762 WARNING StreamThr :71361 [internal.py:is_dead():414] Internal process exiting, parent pid 71304 disappeared
+2025-01-20 17:14:45,762 ERROR   StreamThr :71361 [internal.py:wandb_internal():152] Internal process shutdown.
+2025-01-20 17:14:45,975 INFO    SenderThread:71361 [sender.py:finish():1546] shutting down sender
+2025-01-20 17:14:45,975 INFO    SenderThread:71361 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-01-20 17:14:45,975 INFO    HandlerThread:71361 [handler.py:finish():866] shutting down handler
+2025-01-20 17:14:45,975 INFO    WriterThread:71361 [datastore.py:close():296] close: /home/ale/project-sim2real-montana-scavone/Extension/wandb/run-20250120_171420-4r3ktucd/run-4r3ktucd.wandb
+2025-01-20 17:14:45,975 INFO    HandlerThread:71361 [system_monitor.py:finish():203] Stopping system monitor
+2025-01-20 17:14:45,976 DEBUG   SystemMonitor:71361 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-01-20 17:14:45,976 INFO    HandlerThread:71361 [interfaces.py:finish():202] Joined cpu monitor
+2025-01-20 17:14:45,976 DEBUG   SystemMonitor:71361 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-01-20 17:14:45,977 ERROR   gpu       :71361 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2025-01-20 17:14:45,977 INFO    HandlerThread:71361 [interfaces.py:finish():202] Joined disk monitor
+2025-01-20 17:14:45,977 DEBUG   SystemMonitor:71361 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-01-20 17:14:45,977 INFO    HandlerThread:71361 [interfaces.py:finish():202] Joined gpu monitor
+2025-01-20 17:14:45,978 INFO    HandlerThread:71361 [interfaces.py:finish():202] Joined memory monitor
+2025-01-20 17:14:45,978 INFO    HandlerThread:71361 [interfaces.py:finish():202] Joined network monitor
+2025-01-20 17:14:46,229 INFO    SenderThread:71361 [dir_watcher.py:finish():388] scan: /home/ale/project-sim2real-montana-scavone/Extension/wandb/run-20250120_171420-4r3ktucd/files
+2025-01-20 17:14:46,230 INFO    SenderThread:71361 [dir_watcher.py:finish():402] scan save: /home/ale/project-sim2real-montana-scavone/Extension/wandb/run-20250120_171420-4r3ktucd/files/config.yaml config.yaml
+2025-01-20 17:14:46,230 INFO    SenderThread:71361 [dir_watcher.py:finish():402] scan save: /home/ale/project-sim2real-montana-scavone/Extension/wandb/run-20250120_171420-4r3ktucd/files/wandb-metadata.json wandb-metadata.json
+2025-01-20 17:14:46,231 INFO    SenderThread:71361 [dir_watcher.py:finish():402] scan save: /home/ale/project-sim2real-montana-scavone/Extension/wandb/run-20250120_171420-4r3ktucd/files/conda-environment.yaml conda-environment.yaml
+2025-01-20 17:14:46,235 INFO    SenderThread:71361 [dir_watcher.py:finish():402] scan save: /home/ale/project-sim2real-montana-scavone/Extension/wandb/run-20250120_171420-4r3ktucd/files/requirements.txt requirements.txt
+2025-01-20 17:14:46,240 INFO    SenderThread:71361 [file_pusher.py:finish():172] shutting down file pusher
+2025-01-20 17:14:46,240 INFO    SenderThread:71361 [file_pusher.py:join():178] waiting for file pusher
+2025-01-20 17:14:46,620 INFO    wandb-upload_1:71361 [upload_job.py:push():131] Uploaded file /home/ale/project-sim2real-montana-scavone/Extension/wandb/run-20250120_171420-4r3ktucd/files/conda-environment.yaml
+2025-01-20 17:14:46,638 INFO    wandb-upload_0:71361 [upload_job.py:push():131] Uploaded file /home/ale/project-sim2real-montana-scavone/Extension/wandb/run-20250120_171420-4r3ktucd/files/config.yaml
+2025-01-20 17:14:46,680 INFO    wandb-upload_2:71361 [upload_job.py:push():131] Uploaded file /home/ale/project-sim2real-montana-scavone/Extension/wandb/run-20250120_171420-4r3ktucd/files/requirements.txt
+2025-01-20 17:14:47,241 INFO    SenderThread:71361 [file_stream.py:finish():614] file stream finish called
+2025-01-20 17:14:47,435 INFO    SenderThread:71361 [file_stream.py:finish():618] file stream finish is done

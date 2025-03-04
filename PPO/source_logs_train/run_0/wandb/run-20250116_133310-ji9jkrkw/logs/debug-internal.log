@@ -1,0 +1,17 @@
+{"time":"2025-01-16T13:33:10.901831157+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"source_logs_train/run_0/wandb/run-20250116_133310-ji9jkrkw/logs/debug-core.log"}
+{"time":"2025-01-16T13:33:11.065387462+01:00","level":"INFO","msg":"created new stream","id":"ji9jkrkw"}
+{"time":"2025-01-16T13:33:11.065415951+01:00","level":"INFO","msg":"stream: started","id":"ji9jkrkw"}
+{"time":"2025-01-16T13:33:11.066168082+01:00","level":"INFO","msg":"handler: started","stream_id":"ji9jkrkw"}
+{"time":"2025-01-16T13:33:11.066323308+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"ji9jkrkw"}
+{"time":"2025-01-16T13:33:11.066399775+01:00","level":"INFO","msg":"sender: started","stream_id":"ji9jkrkw"}
+{"time":"2025-01-16T13:33:11.486399238+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T13:46:50.136622538+01:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/s322977-politecnico-di-torino/custom-hopper-ppo/ji9jkrkw/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-01-16T14:04:34.140129713+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-16T14:04:34.140837832+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-16T14:04:35.09809875+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.520332557,"progress":"498.0KB/498.0KB"},{"desc":"uploading history steps 0-0, summary, console lines 8169-8169","runtime_seconds":0.209314813}],"total_operations":2}}
+{"time":"2025-01-16T14:04:36.109697022+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-16T14:04:37.479212834+01:00","level":"INFO","msg":"stream: closing","id":"ji9jkrkw"}
+{"time":"2025-01-16T14:04:37.479231553+01:00","level":"INFO","msg":"handler: closed","stream_id":"ji9jkrkw"}
+{"time":"2025-01-16T14:04:37.479238458+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ji9jkrkw"}
+{"time":"2025-01-16T14:04:37.47927483+01:00","level":"INFO","msg":"sender: closed","stream_id":"ji9jkrkw"}
+{"time":"2025-01-16T14:04:37.47927748+01:00","level":"INFO","msg":"stream: closed","id":"ji9jkrkw"}

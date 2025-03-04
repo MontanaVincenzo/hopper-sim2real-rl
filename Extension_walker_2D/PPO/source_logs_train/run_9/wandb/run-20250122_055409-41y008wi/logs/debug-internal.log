@@ -1,0 +1,20 @@
+{"time":"2025-01-22T05:54:10.154326324+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"source_logs_train/run_9/wandb/run-20250122_055409-41y008wi/logs/debug-core.log"}
+{"time":"2025-01-22T05:54:10.316664911+01:00","level":"INFO","msg":"created new stream","id":"41y008wi"}
+{"time":"2025-01-22T05:54:10.316705423+01:00","level":"INFO","msg":"stream: started","id":"41y008wi"}
+{"time":"2025-01-22T05:54:10.31672739+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"41y008wi"}
+{"time":"2025-01-22T05:54:10.316801895+01:00","level":"INFO","msg":"sender: started","stream_id":"41y008wi"}
+{"time":"2025-01-22T05:54:10.316817559+01:00","level":"INFO","msg":"handler: started","stream_id":"41y008wi"}
+{"time":"2025-01-22T05:54:10.73116807+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-22T06:00:22.673750687+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/s322977-politecnico-di-torino/custom-walker-ppo/41y008wi/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-01-22T06:03:37.441407573+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/s322977-politecnico-di-torino/custom-walker-ppo/41y008wi/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-01-22T06:32:05.023750881+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/s322977-politecnico-di-torino/custom-walker-ppo/41y008wi/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-01-22T06:35:21.75788065+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/s322977-politecnico-di-torino/custom-walker-ppo/41y008wi/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-01-22T06:39:00.441198895+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-22T06:39:00.441688747+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-22T06:39:01.395634992+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.625547455,"progress":"702.4KB/702.4KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.625540878,"progress":"382B/382B"},{"desc":"uploading config.yaml","runtime_seconds":0.487115274,"progress":"593B/593B"}],"total_operations":3}}
+{"time":"2025-01-22T06:39:01.671397143+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-22T06:39:02.883429524+01:00","level":"INFO","msg":"stream: closing","id":"41y008wi"}
+{"time":"2025-01-22T06:39:02.883438254+01:00","level":"INFO","msg":"handler: closed","stream_id":"41y008wi"}
+{"time":"2025-01-22T06:39:02.883442412+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"41y008wi"}
+{"time":"2025-01-22T06:39:02.883474881+01:00","level":"INFO","msg":"sender: closed","stream_id":"41y008wi"}
+{"time":"2025-01-22T06:39:02.883480499+01:00","level":"INFO","msg":"stream: closed","id":"41y008wi"}

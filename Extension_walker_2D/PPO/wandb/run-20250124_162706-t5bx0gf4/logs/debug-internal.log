@@ -1,0 +1,15 @@
+{"time":"2025-01-24T16:27:06.998495467+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/home/vince/project-sim2real-montana-scavone/Extension_walker_2D/PPO/wandb/run-20250124_162706-t5bx0gf4/logs/debug-core.log"}
+{"time":"2025-01-24T16:27:07.23331113+01:00","level":"INFO","msg":"created new stream","id":"t5bx0gf4"}
+{"time":"2025-01-24T16:27:07.23337949+01:00","level":"INFO","msg":"stream: started","id":"t5bx0gf4"}
+{"time":"2025-01-24T16:27:07.233435716+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"t5bx0gf4"}
+{"time":"2025-01-24T16:27:07.233547446+01:00","level":"INFO","msg":"handler: started","stream_id":"t5bx0gf4"}
+{"time":"2025-01-24T16:27:07.233546601+01:00","level":"INFO","msg":"sender: started","stream_id":"t5bx0gf4"}
+{"time":"2025-01-24T16:27:07.563216542+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-24T16:27:13.904496132+01:00","level":"INFO","msg":"stream: closing","id":"t5bx0gf4"}
+{"time":"2025-01-24T16:27:13.904529793+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-24T16:27:13.905162552+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-24T16:27:14.448141078+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-24T16:27:14.633608829+01:00","level":"INFO","msg":"handler: closed","stream_id":"t5bx0gf4"}
+{"time":"2025-01-24T16:27:14.633631607+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"t5bx0gf4"}
+{"time":"2025-01-24T16:27:14.633646824+01:00","level":"INFO","msg":"sender: closed","stream_id":"t5bx0gf4"}
+{"time":"2025-01-24T16:27:14.633680206+01:00","level":"INFO","msg":"stream: closed","id":"t5bx0gf4"}

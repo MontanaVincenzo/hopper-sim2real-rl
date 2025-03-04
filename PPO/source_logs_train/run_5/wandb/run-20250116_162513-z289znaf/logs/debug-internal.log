@@ -1,0 +1,18 @@
+{"time":"2025-01-16T16:25:13.883979392+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"source_logs_train/run_5/wandb/run-20250116_162513-z289znaf/logs/debug-core.log"}
+{"time":"2025-01-16T16:25:14.124213341+01:00","level":"INFO","msg":"created new stream","id":"z289znaf"}
+{"time":"2025-01-16T16:25:14.124249179+01:00","level":"INFO","msg":"stream: started","id":"z289znaf"}
+{"time":"2025-01-16T16:25:14.124297031+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"z289znaf"}
+{"time":"2025-01-16T16:25:14.124332276+01:00","level":"INFO","msg":"sender: started","stream_id":"z289znaf"}
+{"time":"2025-01-16T16:25:14.124357191+01:00","level":"INFO","msg":"handler: started","stream_id":"z289znaf"}
+{"time":"2025-01-16T16:25:14.577866626+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T16:31:51.299579899+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/s322977-politecnico-di-torino/custom-hopper-ppo/z289znaf/file_stream\": read tcp 172.30.132.237:56762->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-01-16T16:43:49.769920841+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/s322977-politecnico-di-torino/custom-hopper-ppo/z289znaf/file_stream\": unexpected EOF"}
+{"time":"2025-01-16T17:09:30.059598361+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-16T17:09:30.061015307+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-16T17:09:31.022810393+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.52434625,"progress":"448.0KB/495.2KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.524098808,"progress":"384B/384B"}],"total_operations":2}}
+{"time":"2025-01-16T17:09:32.118069673+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-16T17:09:33.579398987+01:00","level":"INFO","msg":"stream: closing","id":"z289znaf"}
+{"time":"2025-01-16T17:09:33.579422402+01:00","level":"INFO","msg":"handler: closed","stream_id":"z289znaf"}
+{"time":"2025-01-16T17:09:33.579437476+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"z289znaf"}
+{"time":"2025-01-16T17:09:33.579473316+01:00","level":"INFO","msg":"sender: closed","stream_id":"z289znaf"}
+{"time":"2025-01-16T17:09:33.579490804+01:00","level":"INFO","msg":"stream: closed","id":"z289znaf"}

@@ -1,0 +1,19 @@
+{"time":"2025-01-24T02:24:52.035552939+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"logs_train/run_3/wandb/run-20250124_022451-t7727y16/logs/debug-core.log"}
+{"time":"2025-01-24T02:24:52.250465304+01:00","level":"INFO","msg":"created new stream","id":"t7727y16"}
+{"time":"2025-01-24T02:24:52.250497978+01:00","level":"INFO","msg":"stream: started","id":"t7727y16"}
+{"time":"2025-01-24T02:24:52.250544186+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"t7727y16"}
+{"time":"2025-01-24T02:24:52.250565543+01:00","level":"INFO","msg":"handler: started","stream_id":"t7727y16"}
+{"time":"2025-01-24T02:24:52.250609167+01:00","level":"INFO","msg":"sender: started","stream_id":"t7727y16"}
+{"time":"2025-01-24T02:24:52.590695878+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-24T03:00:46.933079064+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/s322977-politecnico-di-torino/custom-walker-ppo/t7727y16/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-01-24T03:04:05.585494633+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/s322977-politecnico-di-torino/custom-walker-ppo/t7727y16/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-01-24T03:37:16.961672022+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/s322977-politecnico-di-torino/custom-walker-ppo/t7727y16/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-01-24T03:43:07.685997972+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-24T03:43:07.686547612+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-24T03:43:08.686500723+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.561725221,"progress":"708.2KB/708.2KB"},{"desc":"uploading config.yaml","runtime_seconds":0.396810775,"progress":"552B/552B"}],"total_operations":2}}
+{"time":"2025-01-24T03:43:09.531834193+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-24T03:43:10.753732014+01:00","level":"INFO","msg":"stream: closing","id":"t7727y16"}
+{"time":"2025-01-24T03:43:10.753752291+01:00","level":"INFO","msg":"handler: closed","stream_id":"t7727y16"}
+{"time":"2025-01-24T03:43:10.753757807+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"t7727y16"}
+{"time":"2025-01-24T03:43:10.753808362+01:00","level":"INFO","msg":"sender: closed","stream_id":"t7727y16"}
+{"time":"2025-01-24T03:43:10.753811637+01:00","level":"INFO","msg":"stream: closed","id":"t7727y16"}

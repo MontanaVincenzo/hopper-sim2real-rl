@@ -1,0 +1,18 @@
+{"time":"2025-01-19T02:39:16.687934098+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"logs_train/run_3/wandb/run-20250119_023916-kr1no6ri/logs/debug-core.log"}
+{"time":"2025-01-19T02:39:16.837201232+01:00","level":"INFO","msg":"created new stream","id":"kr1no6ri"}
+{"time":"2025-01-19T02:39:16.837233185+01:00","level":"INFO","msg":"stream: started","id":"kr1no6ri"}
+{"time":"2025-01-19T02:39:16.837260868+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"kr1no6ri"}
+{"time":"2025-01-19T02:39:16.837294445+01:00","level":"INFO","msg":"handler: started","stream_id":"kr1no6ri"}
+{"time":"2025-01-19T02:39:16.837313984+01:00","level":"INFO","msg":"sender: started","stream_id":"kr1no6ri"}
+{"time":"2025-01-19T02:39:17.394227492+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-19T03:10:19.500295001+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-19T03:10:19.500644763+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-19T03:10:20.500743561+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading console lines 8108-8165","runtime_seconds":35.081945901},{"desc":"uploading output.log","runtime_seconds":0.594989067,"progress":"64.0KB/516.4KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.594981618,"progress":"339B/339B"},{"desc":"uploading config.yaml","runtime_seconds":0.413139176,"progress":"553B/553B"}],"total_operations":4}}
+{"time":"2025-01-19T03:10:22.131733967+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-19T03:11:24.339540743+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading console lines 8108-8165","runtime_seconds":95.590917084}],"total_operations":1}}
+{"time":"2025-01-19T03:12:00.778667122+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/s322977-politecnico-di-torino/custom-hopper-ppo/kr1no6ri/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-01-19T03:12:05.250426343+01:00","level":"INFO","msg":"stream: closing","id":"kr1no6ri"}
+{"time":"2025-01-19T03:12:05.25043612+01:00","level":"INFO","msg":"handler: closed","stream_id":"kr1no6ri"}
+{"time":"2025-01-19T03:12:05.250441111+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"kr1no6ri"}
+{"time":"2025-01-19T03:12:05.250470316+01:00","level":"INFO","msg":"sender: closed","stream_id":"kr1no6ri"}
+{"time":"2025-01-19T03:12:05.25047291+01:00","level":"INFO","msg":"stream: closed","id":"kr1no6ri"}

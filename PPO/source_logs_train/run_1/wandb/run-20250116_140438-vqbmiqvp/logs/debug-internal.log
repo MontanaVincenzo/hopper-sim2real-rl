@@ -1,0 +1,16 @@
+{"time":"2025-01-16T14:04:39.035008132+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"source_logs_train/run_1/wandb/run-20250116_140438-vqbmiqvp/logs/debug-core.log"}
+{"time":"2025-01-16T14:04:39.210911056+01:00","level":"INFO","msg":"created new stream","id":"vqbmiqvp"}
+{"time":"2025-01-16T14:04:39.210941643+01:00","level":"INFO","msg":"stream: started","id":"vqbmiqvp"}
+{"time":"2025-01-16T14:04:39.210970631+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"vqbmiqvp"}
+{"time":"2025-01-16T14:04:39.210990505+01:00","level":"INFO","msg":"handler: started","stream_id":"vqbmiqvp"}
+{"time":"2025-01-16T14:04:39.211012185+01:00","level":"INFO","msg":"sender: started","stream_id":"vqbmiqvp"}
+{"time":"2025-01-16T14:04:39.691921094+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T14:31:51.860211105+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-16T14:31:51.860559211+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-16T14:31:52.860547644+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.501374416,"progress":"256.0KB/498.5KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.497826878,"progress":"390B/390B"},{"desc":"uploading config.yaml","runtime_seconds":0.256442675,"progress":"594B/594B"}],"total_operations":3}}
+{"time":"2025-01-16T14:31:54.061651199+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-16T14:31:55.426201405+01:00","level":"INFO","msg":"stream: closing","id":"vqbmiqvp"}
+{"time":"2025-01-16T14:31:55.42622307+01:00","level":"INFO","msg":"handler: closed","stream_id":"vqbmiqvp"}
+{"time":"2025-01-16T14:31:55.426229811+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vqbmiqvp"}
+{"time":"2025-01-16T14:31:55.426281189+01:00","level":"INFO","msg":"sender: closed","stream_id":"vqbmiqvp"}
+{"time":"2025-01-16T14:31:55.42628407+01:00","level":"INFO","msg":"stream: closed","id":"vqbmiqvp"}

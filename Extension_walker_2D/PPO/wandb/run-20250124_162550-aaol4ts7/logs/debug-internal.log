@@ -1,0 +1,7 @@
+{"time":"2025-01-24T16:25:51.046821439+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/home/vince/project-sim2real-montana-scavone/Extension_walker_2D/PPO/wandb/run-20250124_162550-aaol4ts7/logs/debug-core.log"}
+{"time":"2025-01-24T16:25:51.26777349+01:00","level":"INFO","msg":"created new stream","id":"aaol4ts7"}
+{"time":"2025-01-24T16:25:51.267807645+01:00","level":"INFO","msg":"stream: started","id":"aaol4ts7"}
+{"time":"2025-01-24T16:25:51.267896786+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"aaol4ts7"}
+{"time":"2025-01-24T16:25:51.267979828+01:00","level":"INFO","msg":"handler: started","stream_id":"aaol4ts7"}
+{"time":"2025-01-24T16:25:51.26957195+01:00","level":"INFO","msg":"sender: started","stream_id":"aaol4ts7"}
+{"time":"2025-01-24T16:25:51.65890084+01:00","level":"INFO","msg":"Starting system monitor"}

@@ -1,0 +1,16 @@
+{"time":"2025-01-22T03:42:08.216221096+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"source_logs_train/run_6/wandb/run-20250122_034208-jpevip38/logs/debug-core.log"}
+{"time":"2025-01-22T03:42:08.385935569+01:00","level":"INFO","msg":"created new stream","id":"jpevip38"}
+{"time":"2025-01-22T03:42:08.385960522+01:00","level":"INFO","msg":"stream: started","id":"jpevip38"}
+{"time":"2025-01-22T03:42:08.385981375+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"jpevip38"}
+{"time":"2025-01-22T03:42:08.386079753+01:00","level":"INFO","msg":"sender: started","stream_id":"jpevip38"}
+{"time":"2025-01-22T03:42:08.3860976+01:00","level":"INFO","msg":"handler: started","stream_id":"jpevip38"}
+{"time":"2025-01-22T03:42:08.693920701+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-22T04:25:34.149877805+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-22T04:25:34.15054585+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-22T04:25:35.109502717+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.637347214,"progress":"721.9KB/721.9KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.637340037,"progress":"389B/389B"},{"desc":"uploading config.yaml","runtime_seconds":0.487758784,"progress":"590B/590B"}],"total_operations":3}}
+{"time":"2025-01-22T04:25:35.81429553+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-22T04:25:37.01630287+01:00","level":"INFO","msg":"stream: closing","id":"jpevip38"}
+{"time":"2025-01-22T04:25:37.016322529+01:00","level":"INFO","msg":"handler: closed","stream_id":"jpevip38"}
+{"time":"2025-01-22T04:25:37.016327467+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"jpevip38"}
+{"time":"2025-01-22T04:25:37.016354542+01:00","level":"INFO","msg":"sender: closed","stream_id":"jpevip38"}
+{"time":"2025-01-22T04:25:37.016357043+01:00","level":"INFO","msg":"stream: closed","id":"jpevip38"}

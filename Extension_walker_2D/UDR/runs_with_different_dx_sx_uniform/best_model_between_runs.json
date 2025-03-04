@@ -1,0 +1,8 @@
+{
+    "delta": 0.3,
+    "source_to_source_mean": 1186.91711742,
+    "source_to_source_std": 271.2697650225327,
+    "source_to_target_mean": 994.59189132,
+    "source_to_target_std": 420.9170401167215,
+    "#run": 5
+}

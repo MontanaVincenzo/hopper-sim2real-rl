@@ -1,0 +1,18 @@
+{"time":"2025-01-16T15:41:51.892471177+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"source_logs_train/run_4/wandb/run-20250116_154151-5cij0684/logs/debug-core.log"}
+{"time":"2025-01-16T15:41:52.113024371+01:00","level":"INFO","msg":"created new stream","id":"5cij0684"}
+{"time":"2025-01-16T15:41:52.113055394+01:00","level":"INFO","msg":"stream: started","id":"5cij0684"}
+{"time":"2025-01-16T15:41:52.113083065+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"5cij0684"}
+{"time":"2025-01-16T15:41:52.113103573+01:00","level":"INFO","msg":"sender: started","stream_id":"5cij0684"}
+{"time":"2025-01-16T15:41:52.113132062+01:00","level":"INFO","msg":"handler: started","stream_id":"5cij0684"}
+{"time":"2025-01-16T15:41:52.557543896+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T15:48:16.927564493+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/s322977-politecnico-di-torino/custom-hopper-ppo/5cij0684/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-01-16T15:51:37.003312792+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/s322977-politecnico-di-torino/custom-hopper-ppo/5cij0684/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-01-16T16:25:07.137374627+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-16T16:25:07.138299873+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-16T16:25:08.09499326+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.521806453,"progress":"448.0KB/494.6KB"},{"desc":"uploading config.yaml","runtime_seconds":0.31915112,"progress":"594B/594B"}],"total_operations":2}}
+{"time":"2025-01-16T16:25:09.205663529+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-16T16:25:10.76396343+01:00","level":"INFO","msg":"stream: closing","id":"5cij0684"}
+{"time":"2025-01-16T16:25:10.763997806+01:00","level":"INFO","msg":"handler: closed","stream_id":"5cij0684"}
+{"time":"2025-01-16T16:25:10.764004675+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"5cij0684"}
+{"time":"2025-01-16T16:25:10.764042561+01:00","level":"INFO","msg":"sender: closed","stream_id":"5cij0684"}
+{"time":"2025-01-16T16:25:10.764045391+01:00","level":"INFO","msg":"stream: closed","id":"5cij0684"}

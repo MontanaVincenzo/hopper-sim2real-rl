@@ -1,0 +1,14 @@
+{
+    "_wandb": {
+        "runtime": 2629
+    },
+    "source_to_source_mean": 1407.1582948999996,
+    "timesteps": 1000000,
+    "_runtime": 2629.897705579,
+    "delta": 0.1,
+    "source_to_source_std": 89.28975418781961,
+    "source_to_target_std": 33.215416453832994,
+    "_timestamp": 1.7376358820355558e+09,
+    "_step": 0,
+    "source_to_target_mean": 525.64955016
+}

@@ -1,0 +1,8 @@
+wandb_version: 1
+
+clip_range:
+  value: 0.30810904625553126
+ent_coef:
+  value: 0.0015880926854501109
+learning_rate:
+  value: 0.0003606727192856284

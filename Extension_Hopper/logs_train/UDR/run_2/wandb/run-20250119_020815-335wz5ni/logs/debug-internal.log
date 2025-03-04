@@ -1,0 +1,20 @@
+{"time":"2025-01-19T02:08:15.513372683+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"logs_train/run_2/wandb/run-20250119_020815-335wz5ni/logs/debug-core.log"}
+{"time":"2025-01-19T02:08:15.677412763+01:00","level":"INFO","msg":"created new stream","id":"335wz5ni"}
+{"time":"2025-01-19T02:08:15.677442611+01:00","level":"INFO","msg":"stream: started","id":"335wz5ni"}
+{"time":"2025-01-19T02:08:15.677557644+01:00","level":"INFO","msg":"handler: started","stream_id":"335wz5ni"}
+{"time":"2025-01-19T02:08:15.67758191+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"335wz5ni"}
+{"time":"2025-01-19T02:08:15.677618459+01:00","level":"INFO","msg":"sender: started","stream_id":"335wz5ni"}
+{"time":"2025-01-19T02:08:16.288352919+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-19T02:16:13.365490703+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/s322977-politecnico-di-torino/custom-hopper-ppo/335wz5ni/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-01-19T02:31:55.340461477+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/s322977-politecnico-di-torino/custom-hopper-ppo/335wz5ni/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-01-19T02:35:01.914973684+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/s322977-politecnico-di-torino/custom-hopper-ppo/335wz5ni/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-01-19T02:38:09.909578047+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/s322977-politecnico-di-torino/custom-hopper-ppo/335wz5ni/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-01-19T02:38:58.715495365+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-19T02:38:58.715955106+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-19T02:38:59.715987922+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.581323247,"progress":"64.0KB/516.5KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.581316186,"progress":"338B/338B"},{"desc":"uploading config.yaml","runtime_seconds":0.400828054,"progress":"553B/553B"}],"total_operations":3}}
+{"time":"2025-01-19T02:39:01.400516952+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-19T02:39:04.362254123+01:00","level":"INFO","msg":"stream: closing","id":"335wz5ni"}
+{"time":"2025-01-19T02:39:04.362264717+01:00","level":"INFO","msg":"handler: closed","stream_id":"335wz5ni"}
+{"time":"2025-01-19T02:39:04.362270735+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"335wz5ni"}
+{"time":"2025-01-19T02:39:04.362300317+01:00","level":"INFO","msg":"sender: closed","stream_id":"335wz5ni"}
+{"time":"2025-01-19T02:39:04.36231749+01:00","level":"INFO","msg":"stream: closed","id":"335wz5ni"}

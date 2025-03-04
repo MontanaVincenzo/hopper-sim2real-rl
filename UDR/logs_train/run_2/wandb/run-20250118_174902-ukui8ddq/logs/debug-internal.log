@@ -1,0 +1,18 @@
+{"time":"2025-01-18T17:49:02.805634376+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"logs_train/run_2/wandb/run-20250118_174902-ukui8ddq/logs/debug-core.log"}
+{"time":"2025-01-18T17:49:02.987576617+01:00","level":"INFO","msg":"created new stream","id":"ukui8ddq"}
+{"time":"2025-01-18T17:49:02.987607114+01:00","level":"INFO","msg":"stream: started","id":"ukui8ddq"}
+{"time":"2025-01-18T17:49:02.987634599+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"ukui8ddq"}
+{"time":"2025-01-18T17:49:02.987666591+01:00","level":"INFO","msg":"sender: started","stream_id":"ukui8ddq"}
+{"time":"2025-01-18T17:49:02.987686647+01:00","level":"INFO","msg":"handler: started","stream_id":"ukui8ddq"}
+{"time":"2025-01-18T17:49:03.398211266+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-18T18:00:08.579873636+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/s322977-politecnico-di-torino/custom-hopper-ppo/ukui8ddq/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-01-18T18:17:54.330403485+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/s322977-politecnico-di-torino/custom-hopper-ppo/ukui8ddq/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-01-18T18:19:41.739459803+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-18T18:19:41.740204656+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-18T18:19:42.740880773+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.54334564,"progress":"432.0KB/1.5MB"},{"desc":"uploading config.yaml","runtime_seconds":0.333546037,"progress":"485B/485B"},{"desc":"uploading history steps 0-0, summary, console lines 10919-10920","runtime_seconds":0.272366298}],"total_operations":3}}
+{"time":"2025-01-18T18:19:46.678897536+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-18T18:19:48.102404284+01:00","level":"INFO","msg":"stream: closing","id":"ukui8ddq"}
+{"time":"2025-01-18T18:19:48.102425301+01:00","level":"INFO","msg":"handler: closed","stream_id":"ukui8ddq"}
+{"time":"2025-01-18T18:19:48.102661414+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ukui8ddq"}
+{"time":"2025-01-18T18:19:48.102726041+01:00","level":"INFO","msg":"sender: closed","stream_id":"ukui8ddq"}
+{"time":"2025-01-18T18:19:48.106300331+01:00","level":"INFO","msg":"stream: closed","id":"ukui8ddq"}

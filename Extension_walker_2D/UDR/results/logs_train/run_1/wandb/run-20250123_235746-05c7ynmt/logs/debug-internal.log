@@ -1,0 +1,18 @@
+{"time":"2025-01-23T23:57:47.15331987+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"logs_train/run_1/wandb/run-20250123_235746-05c7ynmt/logs/debug-core.log"}
+{"time":"2025-01-23T23:57:47.331196059+01:00","level":"INFO","msg":"created new stream","id":"05c7ynmt"}
+{"time":"2025-01-23T23:57:47.331268235+01:00","level":"INFO","msg":"stream: started","id":"05c7ynmt"}
+{"time":"2025-01-23T23:57:47.331336907+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"05c7ynmt"}
+{"time":"2025-01-23T23:57:47.331418352+01:00","level":"INFO","msg":"sender: started","stream_id":"05c7ynmt"}
+{"time":"2025-01-23T23:57:47.331418753+01:00","level":"INFO","msg":"handler: started","stream_id":"05c7ynmt"}
+{"time":"2025-01-23T23:57:47.604007629+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-24T01:05:28.428880653+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-24T01:05:28.429424187+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-24T01:05:29.429580403+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading data","runtime_seconds":26.725904021},{"desc":"uploading output.log","runtime_seconds":0.650912528,"progress":"709.0KB/709.0KB"}],"total_operations":2}}
+{"time":"2025-01-24T01:05:29.725894696+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-24T01:06:30.463930804+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading data","runtime_seconds":87.065739501}],"total_operations":1}}
+{"time":"2025-01-24T01:07:16.986751902+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/s322977-politecnico-di-torino/custom-walker-ppo/05c7ynmt/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-01-24T01:07:20.831944162+01:00","level":"INFO","msg":"stream: closing","id":"05c7ynmt"}
+{"time":"2025-01-24T01:07:20.83196388+01:00","level":"INFO","msg":"handler: closed","stream_id":"05c7ynmt"}
+{"time":"2025-01-24T01:07:20.831970034+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"05c7ynmt"}
+{"time":"2025-01-24T01:07:20.832069831+01:00","level":"INFO","msg":"sender: closed","stream_id":"05c7ynmt"}
+{"time":"2025-01-24T01:07:20.832074514+01:00","level":"INFO","msg":"stream: closed","id":"05c7ynmt"}

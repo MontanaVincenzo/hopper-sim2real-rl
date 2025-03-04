@@ -1,0 +1,1 @@
+{"target_to_target_mean": 1725.2952614, "target_to_target_std": 227.54722968799385, "learning_rate": 0.0003935859723969824, "clip_range": 0.3338021260007276, "ent_coef": 0.016784068352557524, "timesteps": 700000, "_timestamp": 1737054612.0429602, "_runtime": 1421.536591053009, "_step": 0, "_wandb": {"runtime": 1421}}

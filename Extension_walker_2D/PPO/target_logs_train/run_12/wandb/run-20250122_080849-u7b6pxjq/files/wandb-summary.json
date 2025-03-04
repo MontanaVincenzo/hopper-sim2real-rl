@@ -1,0 +1,1 @@
+{"learning_rate":0.0005942579139567411,"ent_coef":0.018800320168821542,"target_to_target_mean":1370.3232262000001,"timesteps":1000000,"_runtime":2747.040839048,"_wandb":{"runtime":2747},"_timestamp":1.7375324770979102e+09,"_step":0,"target_to_target_std":148.48337506621846,"clip_range":0.34137166553574877}

@@ -1,0 +1,16 @@
+{"time":"2025-01-18T18:19:53.674219465+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"logs_train/run_3/wandb/run-20250118_181953-dlklfju7/logs/debug-core.log"}
+{"time":"2025-01-18T18:19:53.835461537+01:00","level":"INFO","msg":"created new stream","id":"dlklfju7"}
+{"time":"2025-01-18T18:19:53.835488871+01:00","level":"INFO","msg":"stream: started","id":"dlklfju7"}
+{"time":"2025-01-18T18:19:53.835550323+01:00","level":"INFO","msg":"sender: started","stream_id":"dlklfju7"}
+{"time":"2025-01-18T18:19:53.835583994+01:00","level":"INFO","msg":"handler: started","stream_id":"dlklfju7"}
+{"time":"2025-01-18T18:19:53.835602061+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"dlklfju7"}
+{"time":"2025-01-18T18:19:54.330128043+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-18T18:50:33.675287649+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-18T18:50:33.675746549+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-18T18:50:34.675648715+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.565990495,"progress":"448.0KB/1.4MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.565982844,"progress":"297B/297B"},{"desc":"uploading config.yaml","runtime_seconds":0.372022573,"progress":"485B/485B"}],"total_operations":3}}
+{"time":"2025-01-18T18:50:37.95726383+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-18T18:50:39.359588433+01:00","level":"INFO","msg":"stream: closing","id":"dlklfju7"}
+{"time":"2025-01-18T18:50:39.359598289+01:00","level":"INFO","msg":"handler: closed","stream_id":"dlklfju7"}
+{"time":"2025-01-18T18:50:39.359603595+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"dlklfju7"}
+{"time":"2025-01-18T18:50:39.359639144+01:00","level":"INFO","msg":"sender: closed","stream_id":"dlklfju7"}
+{"time":"2025-01-18T18:50:39.359641648+01:00","level":"INFO","msg":"stream: closed","id":"dlklfju7"}

@@ -1,0 +1,36 @@
+2025-01-19 11:09:12,688 INFO    Thread-13 :9971 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2025-01-19 11:09:12,688 INFO    Thread-13 :9971 [wandb_setup.py:_flush():76] Configure stats pid to 9971
+2025-01-19 11:09:12,688 INFO    Thread-13 :9971 [wandb_setup.py:_flush():76] Loading settings from /home/ale/.config/wandb/settings
+2025-01-19 11:09:12,688 INFO    Thread-13 :9971 [wandb_setup.py:_flush():76] Loading settings from /home/ale/project-sim2real-montana-scavone/Extension/wandb/settings
+2025-01-19 11:09:12,688 INFO    Thread-13 :9971 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'custom-hopper-ppo', 'entity': 'alex-scavone-politecnico-di-torino', 'root_dir': '/home/ale/project-sim2real-montana-scavone/Extension', 'run_id': 'r3133xx9', 'sweep_param_path': '/home/ale/project-sim2real-montana-scavone/Extension/wandb/sweep-u7fv552x/config-r3133xx9.yaml', 'sweep_id': 'u7fv552x'}
+2025-01-19 11:09:12,688 INFO    Thread-13 :9971 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-01-19 11:09:12,688 INFO    Thread-13 :9971 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'Extension/train.py', 'program_abspath': '/home/ale/project-sim2real-montana-scavone/Extension/train.py', 'program': '/home/ale/project-sim2real-montana-scavone/Extension/train.py'}
+2025-01-19 11:09:12,688 INFO    Thread-13 :9971 [wandb_setup.py:_flush():76] Applying login settings: {}
+2025-01-19 11:09:12,688 INFO    Thread-13 :9971 [wandb_init.py:_log_setup():521] Logging user logs to ./logs_train/run_2/wandb/run-20250119_110912-r3133xx9/logs/debug.log
+2025-01-19 11:09:12,688 INFO    Thread-13 :9971 [wandb_init.py:_log_setup():522] Logging internal logs to ./logs_train/run_2/wandb/run-20250119_110912-r3133xx9/logs/debug-internal.log
+2025-01-19 11:09:12,688 INFO    Thread-13 :9971 [wandb_init.py:init():561] calling init triggers
+2025-01-19 11:09:12,688 INFO    Thread-13 :9971 [wandb_init.py:init():568] wandb.init called with sweep_config: {'delta_foot_mass': '0', 'delta_leg_mass': '0', 'delta_thigh_mass': '0.30'}
+config: {}
+2025-01-19 11:09:12,688 INFO    Thread-13 :9971 [wandb_init.py:init():611] starting backend
+2025-01-19 11:09:12,688 INFO    Thread-13 :9971 [wandb_init.py:init():615] setting up manager
+2025-01-19 11:09:12,691 INFO    Thread-13 :9971 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-01-19 11:09:12,691 INFO    Thread-13 :9971 [wandb_init.py:init():623] backend started and connected
+2025-01-19 11:09:12,694 INFO    Thread-13 :9971 [wandb_run.py:_config_callback():1347] config_cb None None {'delta_foot_mass': '0', 'delta_leg_mass': '0', 'delta_thigh_mass': '0.30'}
+2025-01-19 11:09:12,696 INFO    Thread-13 :9971 [wandb_init.py:init():715] updated telemetry
+2025-01-19 11:09:12,702 INFO    Thread-13 :9971 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2025-01-19 11:09:13,072 INFO    Thread-13 :9971 [wandb_run.py:_on_init():2357] communicating current version
+2025-01-19 11:09:13,155 INFO    Thread-13 :9971 [wandb_run.py:_on_init():2366] got version response upgrade_message: "wandb version 0.19.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-01-19 11:09:13,155 INFO    Thread-13 :9971 [wandb_init.py:init():799] starting run threads in backend
+2025-01-19 11:09:13,632 INFO    Thread-13 :9971 [wandb_run.py:_console_start():2335] atexit reg
+2025-01-19 11:09:13,632 INFO    Thread-13 :9971 [wandb_run.py:_redirect():2190] redirect: wrap_raw
+2025-01-19 11:09:13,632 INFO    Thread-13 :9971 [wandb_run.py:_redirect():2255] Wrapping output streams.
+2025-01-19 11:09:13,632 INFO    Thread-13 :9971 [wandb_run.py:_redirect():2280] Redirects installed.
+2025-01-19 11:09:13,633 INFO    Thread-13 :9971 [wandb_init.py:init():842] run started, returning control to user process
+2025-01-19 11:29:08,946 INFO    Thread-13 :9971 [wandb_run.py:_finish():2064] finishing run alex-scavone-politecnico-di-torino/custom-hopper-ppo/r3133xx9
+2025-01-19 11:29:08,946 INFO    Thread-13 :9971 [wandb_run.py:_atexit_cleanup():2304] got exitcode: 0
+2025-01-19 11:29:08,946 INFO    Thread-13 :9971 [wandb_run.py:_restore():2287] restore
+2025-01-19 11:29:08,947 INFO    Thread-13 :9971 [wandb_run.py:_restore():2293] restore done
+2025-01-19 11:30:17,726 INFO    Thread-13 :9971 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2025-01-19 11:30:17,726 INFO    Thread-13 :9971 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2025-01-19 11:30:17,732 INFO    Thread-13 :9971 [wandb_run.py:_footer_sync_info():3895] logging synced files

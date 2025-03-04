@@ -1,0 +1,16 @@
+{
+    "delta_thigh_mass": "0",
+    "delta_leg_mass": "0",
+    "delta_foot_mass": "0.25",
+    "source_to_source_mean": 1681.68610954,
+    "source_to_source_std": 18.369412536685992,
+    "source_to_target_mean": 997.3633322599999,
+    "source_to_target_std": 170.4230302107544,
+    "timesteps": 700000,
+    "_timestamp": 1737291613.3821635,
+    "_runtime": 1233.8069384098053,
+    "_step": 0,
+    "_wandb": {
+        "runtime": 1233
+    }
+}

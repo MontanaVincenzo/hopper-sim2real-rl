@@ -1,0 +1,10 @@
+{
+    "delta_thigh_mass": "0",
+    "delta_leg_mass": "0.35",
+    "delta_foot_mass": "0",
+    "source_to_source_mean": 1723.5446799000001,
+    "source_to_source_std": 4.90065354646133,
+    "source_to_target_mean": 1061.00305656,
+    "source_to_target_std": 43.747950149303385,
+    "#run": 7
+}

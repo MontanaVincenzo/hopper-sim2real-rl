@@ -1,0 +1,825 @@
+{'clip_range': 0.31151923834562867, 'ent_coef': 0.010337688202151484, 'learning_rate': 0.0009778209832658007}
+Using cuda device
+Wrapping the env in a DummyVecEnv.
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 18.4     |
+|    ep_rew_mean     | 14.4     |
+| time/              |          |
+|    fps             | 845      |
+|    iterations      | 1        |
+|    time_elapsed    | 2        |
+|    total_timesteps | 2048     |
+---------------------------------
+
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 26.7        |
+|    ep_rew_mean          | 28.2        |
+| time/                   |             |
+|    fps                  | 704         |
+|    iterations           | 2           |
+|    time_elapsed         | 5           |
+|    total_timesteps      | 4096        |
+| train/                  |             |
+|    approx_kl            | 0.049905263 |
+|    clip_fraction        | 0.249       |
+|    clip_range           | 0.312       |
+|    entropy_loss         | -4.22       |
+|    explained_variance   | 0.00577     |
+|    learning_rate        | 0.000978    |
+|    loss                 | 3.47        |
+|    n_updates            | 10          |
+|    policy_gradient_loss | -0.0422     |
+|    std                  | 0.979       |
+|    value_loss           | 15.6        |
+-----------------------------------------
+
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 41.2       |
+|    ep_rew_mean          | 59.1       |
+| time/                   |            |
+|    fps                  | 632        |
+|    iterations           | 3          |
+|    time_elapsed         | 9          |
+|    total_timesteps      | 6144       |
+| train/                  |            |
+|    approx_kl            | 0.03472111 |
+|    clip_fraction        | 0.153      |
+|    clip_range           | 0.312      |
+|    entropy_loss         | -4.18      |
+|    explained_variance   | 0.323      |
+|    learning_rate        | 0.000978   |
+|    loss                 | 40.2       |
+|    n_updates            | 20         |
+|    policy_gradient_loss | -0.0315    |
+|    std                  | 0.972      |
+|    value_loss           | 93.9       |
+----------------------------------------
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 52.8       |
+|    ep_rew_mean          | 85.1       |
+| time/                   |            |
+|    fps                  | 631        |
+|    iterations           | 4          |
+|    time_elapsed         | 12         |
+|    total_timesteps      | 8192       |
+| train/                  |            |
+|    approx_kl            | 0.02244542 |
+|    clip_fraction        | 0.0842     |
+|    clip_range           | 0.312      |
+|    entropy_loss         | -4.16      |
+|    explained_variance   | 0.148      |
+|    learning_rate        | 0.000978   |
+|    loss                 | 69.7       |
+|    n_updates            | 30         |
+|    policy_gradient_loss | -0.0236    |
+|    std                  | 0.964      |
+|    value_loss           | 191        |
+----------------------------------------
+
+Eval num_timesteps=10000, episode_reward=136.98 +/- 2.67
+Episode length: 71.60 +/- 1.20
+-----------------------------------------
+| eval/                   |             |
+|    mean_ep_length       | 71.6        |
+|    mean_reward          | 137         |
+| time/                   |             |
+|    total_timesteps      | 10000       |
+| train/                  |             |
+|    approx_kl            | 0.017571934 |
+|    clip_fraction        | 0.0649      |
+|    clip_range           | 0.312       |
+|    entropy_loss         | -4.14       |
+|    explained_variance   | 0.185       |
+|    learning_rate        | 0.000978    |
+|    loss                 | 75.9        |
+|    n_updates            | 40          |
+|    policy_gradient_loss | -0.0174     |
+|    std                  | 0.96        |
+|    value_loss           | 191         |
+-----------------------------------------
+New best mean reward!
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 64.3     |
+|    ep_rew_mean     | 113      |
+| time/              |          |
+|    fps             | 541      |
+|    iterations      | 5        |
+|    time_elapsed    | 18       |
+|    total_timesteps | 10240    |
+---------------------------------
+[35m   2%[39m [38m━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[39m [32m11,838/700,000 [39m [ [33m0:00:19[39m < [36m0:18:57[39m , [31m606 it/s[39m ]
+|    clip_range           | 0.312       |
+|    entropy_loss         | -4.15       |
+|    explained_variance   | 0.522       |
+|    learning_rate        | 0.000978    |
+|    loss                 | 50.3        |
+|    n_updates            | 50          |
+|    policy_gradient_loss | -0.0218     |
+|    std                  | 0.969       |
+|    value_loss           | 142         |
+-----------------------------------------
+[35m   2%[39m [38m━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[39m [32m12,601/700,000 [39m [ [33m0:00:21[39m < [36m0:19:35[39m , [31m585 it/s[39m ]
+|    clip_range           | 0.312       |
+|    explained_variance   | 0.629       |
+|    learning_rate        | 0.000978    |
+|    loss                 | 85          |
+|    n_updates            | 60          |
+|    policy_gradient_loss | -0.0122     |
+|    std                  | 0.964       |
+|    value_loss           | 151         |
+-----------------------------------------
+[35m   2%[39m [38m━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[39m [32m15,199/700,000 [39m [ [33m0:00:25[39m < [36m0:19:11[39m , [31m595 it/s[39m ]
+|    loss                 | 39.6        |
+|    fps                  | 564         |
+|    iterations           | 8           |
+|    time_elapsed         | 29          |
+|    total_timesteps      | 16384       |
+| train/                  |             |
+|    approx_kl            | 0.021285832 |
+|    clip_fraction        | 0.0848      |
+|    clip_range           | 0.312       |
+|    entropy_loss         | -4.15       |
+|    explained_variance   | 0.729       |
+|    learning_rate        | 0.000978    |
+|    loss                 | 39.6        |
+|    n_updates            | 70          |
+|    policy_gradient_loss | -0.0164     |
+|    std                  | 0.968       |
+|    value_loss           | 135         |
+-----------------------------------------
+[35m   3%[39m [38m━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[39m [32m17,972/700,000 [39m [ [33m0:00:29[39m < [36m0:18:41[39m , [31m609 it/s[39m ]
+|    policy_gradient_loss | -0.0176     |
+|    std                  | 0.968       |
+|    value_loss           | 106         |
+-----------------------------------------
+[35m   3%[39m [38m━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[39m [32m18,907/700,000 [39m [ [33m0:00:31[39m < [36m0:19:26[39m , [31m585 it/s[39m ]
+|    policy_gradient_loss | -0.0176     |
+[35m   3%[39m [38m━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[39m [32m20,763/700,000 [39m [ [33m0:00:35[39m < [36m0:20:09[39m , [31m562 it/s[39m ]
+|    policy_gradient_loss | -0.0218    |
+|    std                  | 0.956      |
+|    value_loss           | 107        |
+----------------------------------------
+[35m   3%[39m [38m━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[39m [32m22,446/700,000 [39m [ [33m0:00:37[39m < [36m0:18:42[39m , [31m604 it/s[39m ]
+|    policy_gradient_loss | -0.0218    |
+|    explained_variance   | 0.876       |
+|    explained_variance   | 0.876       |
+|    approx_kl            | 0.03161586 ||
+|    approx_kl            | 0.03161586 ||
+|    iterations           | 14          |
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+|    iterations           | 16          |
+|    value_loss           | 73.9       ||
+|    value_loss           | 73.9       ||
+|    loss                 | 28.7        |
+|    clip_range           | 0.312       |
+|    clip_range           | 0.312       |
+|    fps             | 553      |       |
+|    fps             | 553      |       |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+|    fps                  | 543         |
+|    fps                  | 543         |
+|    approx_kl            | 0.02476453 ||
+|    fps             | 536      |76453 ||
+|    fps             | 536      |76453 ||
+| train/                  |            ||
+|    fps                  | 543         |
+|    fps                  | 543         |
+| train/                  |             |
+|    fps                  | 548         |
+|    fps                  | 548         |
+|    approx_kl            | 0.023712622 |
+|    fps             | 542      |712622 |
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |             |
+|    mean_reward          | 1.06e+03    |
+| rollout/           |          |+03    |
+| rollout/           |          |+03    |
+| train/                  |            ||
+|    fps                  | 542        ||
+|    fps                  | 542        ||
+| train/                  |             |
+|    fps                  | 545         |
+|    fps                  | 545         |
+|    approx_kl            | 0.031799674 |
+|    iterations      | 40       |799674 |
+|    iterations      | 40       |799674 |
+| train/                  |            ||
+|    fps                  | 537         |
+|    fps                  | 537         |
+| train/                  |             |
+| train/                  |             |
+|    iterations      | 44       |990282 |
+|    iterations      | 44       |990282 |
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+|    fps                  | 539        ||
+|    fps                  | 539        ||
+| train/                  |             |
+| train/                  |             |
+|    iterations      | 49       |60606 ||
+|    iterations      | 49       |60606 ||
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+|    fps                  | 535         |
+|    fps                  | 535         |
+| train/                  |            ||
+| train/                  |            ||
+|    iterations      | 54       |003252 |
+|    iterations      | 54       |003252 |
+| train/                  |             |
+|    fps                  | 540        ||
+|    fps                  | 540        ||
+| train/                  |             |
+|    fps                  | 543         |
+|    fps                  | 543         |
+|    approx_kl            | 0.033711597 |
+|    iterations      | 59       |711597 |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+|    fps                  | 540         |
+|    fps                  | 540         |
+|    fps                  | 540         |
+|    iterations      | 64       |592105 |
+|    iterations      | 64       |592105 |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+|    fps                  | 540        ||
+|    fps                  | 540        ||
+| train/                  |             |
+|    mean_reward          | 759        ||
+|    ep_len_mean     | 247      |      ||
+|    ep_len_mean     | 247      |      ||
+| train/                  |             |
+|    fps                  | 541         |
+|    fps                  | 541         |
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+|    mean_reward          | 919        ||
+|    ep_len_mean     | 266      |      ||
+|    ep_len_mean     | 266      |      ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |             |
+|    fps                  | 539         |
+|    fps                  | 539         |
+|    fps                  | 539         |
+| train/                  |            ||
+| train/                  |            ||
+|    approx_kl            | 0.02327212 ||
+|    fps             | 528      |27212 ||
+|    fps             | 528      |27212 ||
+|    fps             | 528      |27212 ||
+| train/                  |           |||
+| train/                  |           |||
+| train/                  |             |
+| train/                  |             |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |             |
+| train/                  |             |
+|    approx_kl            | 0.075775094 |
+|    fps             | 522      |775094 |
+|    fps             | 522      |775094 |
+| train/                  |             |
+| train/                  |             |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |           |||
+| train/                  |           |||
+|    iterations      | 88       |64601 ||
+|    iterations      | 88       |64601 ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+|    fps             | 516      |67448 ||
+|    fps             | 516      |67448 ||
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+|    fps                  | 516         |
+|    fps                  | 516         |
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+|    iterations      | 98       |69913 ||
+|    iterations      | 98       |69913 ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+|    fps                  | 515        ||
+|    fps                  | 515        ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+|    approx_kl            | 0.085897945 |
+|    iterations      | 103      |897945 |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+|    fps                  | 513        ||
+|    fps                  | 513        ||
+|    fps                  | 513        ||
+|    approx_kl            | 0.046977155 |
+|    iterations      | 108      |977155 |
+| train/                  |             |
+| train/                  |             |
+| train/                  |           | |
+| train/                  |           | |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |             |
+| train/                  |             |
+|    approx_kl            | 0.031804815 |
+|    fps             | 507      |804815 |
+|    fps             | 507      |804815 |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |             |
+|    fps                  | 509         |
+|    fps                  | 509         |
+| train/                  |             |
+| train/                  |             |
+|    approx_kl            | 0.10372908 ||
+|    iterations      | 118      |72908 ||
+|    iterations      | 118      |72908 ||
+| train/                  |           |||
+| train/                  |           |||
+| train/                  |             |
+|    fps                  | 508        ||
+|    fps                  | 508        ||
+| train/                  |            ||
+| train/                  |            ||
+|    approx_kl            | 0.027047902 |
+|    iterations      | 123      |047902 |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |             |
+| train/                  |             |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+|    iterations      | 127      |83232 ||
+|    explained_variance   | 0.98       ||
+|    explained_variance   | 0.98       ||
+| train/                  |             |
+| train/                  |             |
+| train/                  |            ||
+|    fps                  | 508        ||
+|    fps                  | 508        ||
+|    fps                  | 508        ||
+|    fps                  | 508        ||
+|    iterations      | 132      |21647 ||
+|    iterations      | 132      |21647 ||
+| train/                  |             |
+|    fps                  | 505        ||
+|    fps                  | 505        ||
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+|    approx_kl            | 0.08343362 ||
+|    iterations      | 137      |43362 ||
+| train/                  |             |
+| train/                  |             |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |             |
+|    fps                  | 507         |
+|    fps                  | 507         |
+|    approx_kl            | 0.044536904 |
+|    iterations      | 142      |536904 |
+| train/                  |             |
+| train/                  |             |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |             |
+|    fps                  | 509         |
+|    fps                  | 509         |
+|    approx_kl            | 0.021889936 |
+|    iterations      | 147      |889936 |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |             |
+| train/                  |             |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |             |
+| train/                  |             |
+|    approx_kl            | 0.084962845 |
+|    iterations      | 152      |962845 |
+| train/                  |             |
+| train/                  |             |
+| train/                  |            ||
+|    fps                  | 509        ||
+|    fps                  | 509        ||
+| train/                  |           |||
+| train/                  |           |||
+|    approx_kl            | 0.09388475 ||
+|    fps             | 508      |88475 ||
+|    fps             | 508      |88475 ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |             |
+|    fps                  | 508         |
+|    fps                  | 508         |
+|    fps                  | 508         |
+|    approx_kl            | 0.09309018 ||
+|    fps             | 506      |09018 ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |           |||
+| train/                  |           |||
+| train/                  |             |
+| train/                  |             |
+| train/                  |            ||
+| train/                  |            ||
+|    approx_kl            | 0.07461308 ||
+|    iterations      | 167      |61308 ||
+|    iterations      | 167      |61308 ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |             |
+| train/                  |             |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+|    iterations      | 171      |526114 |
+|    iterations      | 171      |526114 |
+| train/                  |             |
+|    fps                  | 504         |
+|    fps                  | 504         |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+|    approx_kl            | 0.0757267 | |
+|    fps             | 502      |7267 | |
+|    fps             | 502      |7267 | |
+| train/                  |           | |
+|    fps                  | 503         |
+|    fps                  | 503         |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+|    iterations      | 181      |2494 |||
+|    iterations      | 181      |2494 |||
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+|    iterations      | 186      |896633 |
+|    iterations      | 186      |896633 |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |             |
+| train/                  |             |
+|    approx_kl            | 0.046326205 |
+|    fps             | 499      |326205 |
+|    fps             | 499      |326205 |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |             |
+|    fps                  | 499        ||
+|    fps                  | 499        ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+|    fps             | 497      |713428 |
+|    fps             | 497      |713428 |
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+| train/                  |            ||
+|    fps                  | 499        ||
+|    fps                  | 499        ||
+|    approx_kl            | 0.040089577 |
+|    iterations      | 201      |089577 |
+|    iterations      | 201      |089577 |
+| train/                  |            ||
+|    fps                  | 498        ||
+|    fps                  | 498        ||
+| train/                  |             |
+|    fps                  | 500         |
+|    fps                  | 500         |
+|    fps                  | 500         |
+|    approx_kl            | 0.07810744 ||
+|    iterations      | 206      |10744 ||
+| train/                  |             |
+| train/                  |             |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+|    fps             | 497      |35301 ||
+|    fps             | 497      |35301 ||
+| train/                  |            ||
+|    fps                  | 498        ||
+|    fps                  | 498        ||
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+|    iterations      | 215      |81109 ||
+|    iterations      | 215      |81109 ||
+| train/                  |            ||
+|    fps                  | 498         |
+|    fps                  | 498         |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |             |
+| train/                  |             |
+|    iterations      | 220      |915646 |
+|    iterations      | 220      |915646 |
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+|    fps                  | 499        ||
+|    fps                  | 499        ||
+| train/                  |            ||
+| train/                  |            ||
+|    approx_kl            | 0.045710377 |
+|    iterations      | 225      |710377 |
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+|    fps                  | 500         |
+|    fps                  | 500         |
+|    iterations      | 230      |7541 | |
+|    iterations      | 230      |7541 | |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+|    fps                  | 501         |
+|    fps                  | 501         |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+|    iterations      | 235      |33244 ||
+|    iterations      | 235      |33244 ||
+| train/                  |             |
+| train/                  |             |
+| train/                  |           | |
+|    fps                  | 501         |
+|    fps                  | 501         |
+| train/                  |             |
+| train/                  |             |
+|    approx_kl            | 0.09701271 ||
+|    fps             | 500      |01271 ||
+|    fps             | 500      |01271 ||
+| train/                  |            ||
+|    fps                  | 501         |
+|    fps                  | 501         |
+| train/                  |             |
+| train/                  |             |
+| train/                  |            ||
+|    mean_reward          | 1.16e+03    |
+|    ep_len_mean     | 368      |+03    |
+|    ep_len_mean     | 368      |+03    |
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+| train/                  |            ||
+|    fps                  | 501         |
+|    fps                  | 501         |
+|    approx_kl            | 0.081834525 |
+|    approx_kl            | 0.081834525 |
+---------------------------------834525 |
+| train/                  |             |
+| train/                  |             |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+|    iterations      | 254      |95398 ||
+|    iterations      | 254      |95398 ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |           |||
+|    fps                  | 499        ||
+|    fps                  | 499        ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+|    iterations      | 259      |64912 ||
+|    iterations      | 259      |64912 ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |             |
+| train/                  |             |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+|    approx_kl            | 0.15830949 ||
+|    iterations      | 264      |30949 ||
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+|    iterations      | 269      |407075 |
+|    iterations      | 269      |407075 |
+| train/                  |          |5 |
+| train/                  |          |5 |
+| train/                  |             |
+|    fps                  | 498        ||
+|    fps                  | 498        ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+|    approx_kl            | 0.04309604 ||
+|    iterations      | 274      |09604 ||
+| train/                  |             |
+| train/                  |             |
+| train/                  |            ||
+|    fps                  | 498        ||
+|    fps                  | 498        ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+|    approx_kl            | 0.20243686 ||
+|    iterations      | 279      |43686 ||
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+| train/                  |           | |
+|    fps                  | 498         |
+|    fps                  | 498         |
+|    fps                  | 498         |
+|    approx_kl            | 0.08941916 ||
+|    iterations      | 284      |41916 ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |             |
+| train/                  |             |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |             |
+| train/                  |             |
+|    approx_kl            | 0.043870114 |
+|    iterations      | 289      |870114 |
+|    iterations      | 289      |870114 |
+| train/                  |            ||
+|    fps                  | 497        ||
+|    fps                  | 497        ||
+| train/                  |             |
+| train/                  |             |
+|    iterations      | 293      |88843 ||
+|    iterations      | 293      |88843 ||
+| train/                  |             |
+|    fps                  | 497         |
+|    fps                  | 497         |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |             |
+| train/                  |             |
+|    iterations      | 298      |92729 ||
+|    iterations      | 298      |92729 ||
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+| train/                  |             |
+|    fps                  | 498        ||
+|    fps                  | 498        ||
+|    fps                  | 498        ||
+|    iterations      | 303      |09533 ||
+|    iterations      | 303      |09533 ||
+| train/                  |             |
+| train/                  |             |
+| train/                  |            ||
+|    fps                  | 498         |
+|    fps                  | 498         |
+| train/                  |            ||
+| train/                  |            ||
+|    approx_kl            | 0.17533073 ||
+|    iterations      | 308      |33073 ||
+|    iterations      | 308      |33073 ||
+| train/                  |            ||
+|    fps                  | 498        ||
+|    fps                  | 498        ||
+| train/                  |            ||
+|    fps                  | 498         |
+|    fps                  | 498         |
+|    approx_kl            | 0.06901272 ||
+|    iterations      | 313      |01272 ||
+|    iterations      | 313      |01272 ||
+| train/                  |             |
+|    fps                  | 498        ||
+|    fps                  | 498        ||
+| train/                  |            ||
+|    fps                  | 499         |
+|    fps                  | 499         |
+|    fps                  | 499         |
+|    iterations      | 318      |60403 ||
+|    iterations      | 318      |60403 ||
+| train/                  |             |
+| train/                  |             |
+| train/                  |            ||
+|    fps                  | 498         |
+|    fps                  | 498         |
+| train/                  |             |
+| train/                  |             |
+|    approx_kl            | 0.06646041 ||
+|    iterations      | 323      |46041 ||
+|    iterations      | 323      |46041 ||
+| train/                  |            ||
+|    fps                  | 499         |
+|    fps                  | 499         |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+|    mean_reward          | 1.31e+03    |
+|    mean_reward          | 1.31e+03    |
+---------------------------------+03    |
+| train/                  |           | |
+| train/                  |           | |
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+|    fps                  | 499        ||
+|    fps                  | 499        ||
+|    approx_kl            | 0.10170077 ||
+|    approx_kl            | 0.10170077 ||
+---------------------------------70077 ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |           |||
+| train/                  |           |||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+|    iterations      | 337      |37048 ||
+|    iterations      | 337      |37048 ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |            ||
+| train/                  |           |||
+| train/                  |           |||
+| train/                  |           |||
+|    approx_kl            | 0.13237342 ||
+|    iterations      | 342      |37342 ||
+|    iterations      | 342      |37342 ||
+/home/ale/miniconda3/envs/rl/lib/python3.8/site-packages/stable_baselines3/common/save_util.py:437: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  th_object = th.load(file_content, map_location=device)
+|    iterations      | 342      |37342 ||

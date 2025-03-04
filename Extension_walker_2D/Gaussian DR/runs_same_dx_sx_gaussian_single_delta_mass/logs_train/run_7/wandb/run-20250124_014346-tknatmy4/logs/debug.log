@@ -1,0 +1,36 @@
+2025-01-24 01:43:46,742 INFO    Thread-34 :7038 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2025-01-24 01:43:46,742 INFO    Thread-34 :7038 [wandb_setup.py:_flush():76] Configure stats pid to 7038
+2025-01-24 01:43:46,742 INFO    Thread-34 :7038 [wandb_setup.py:_flush():76] Loading settings from /home/ale/.config/wandb/settings
+2025-01-24 01:43:46,742 INFO    Thread-34 :7038 [wandb_setup.py:_flush():76] Loading settings from /home/ale/project-sim2real-montana-scavone/Extension_walker_2D/UDR/wandb/settings
+2025-01-24 01:43:46,742 INFO    Thread-34 :7038 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'custom-walker-ppo', 'entity': 'alex-scavone-politecnico-di-torino', 'root_dir': '/home/ale/project-sim2real-montana-scavone/Extension_walker_2D/UDR', 'run_id': 'tknatmy4', 'sweep_param_path': '/home/ale/project-sim2real-montana-scavone/Extension_walker_2D/UDR/wandb/sweep-vc5j7cqx/config-tknatmy4.yaml', 'sweep_id': 'vc5j7cqx'}
+2025-01-24 01:43:46,742 INFO    Thread-34 :7038 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-01-24 01:43:46,743 INFO    Thread-34 :7038 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'Extension_walker_2D/UDR/train.py', 'program_abspath': '/home/ale/project-sim2real-montana-scavone/Extension_walker_2D/UDR/train.py', 'program': '/home/ale/project-sim2real-montana-scavone/Extension_walker_2D/UDR/train.py'}
+2025-01-24 01:43:46,743 INFO    Thread-34 :7038 [wandb_setup.py:_flush():76] Applying login settings: {}
+2025-01-24 01:43:46,743 INFO    Thread-34 :7038 [wandb_init.py:_log_setup():521] Logging user logs to ./logs_train/run_7/wandb/run-20250124_014346-tknatmy4/logs/debug.log
+2025-01-24 01:43:46,743 INFO    Thread-34 :7038 [wandb_init.py:_log_setup():522] Logging internal logs to ./logs_train/run_7/wandb/run-20250124_014346-tknatmy4/logs/debug-internal.log
+2025-01-24 01:43:46,743 INFO    Thread-34 :7038 [wandb_init.py:init():561] calling init triggers
+2025-01-24 01:43:46,743 INFO    Thread-34 :7038 [wandb_init.py:init():568] wandb.init called with sweep_config: {'delta_foot_mass': '0', 'delta_leg_mass': 0.4, 'delta_thigh_mass': '0'}
+config: {}
+2025-01-24 01:43:46,743 INFO    Thread-34 :7038 [wandb_init.py:init():611] starting backend
+2025-01-24 01:43:46,743 INFO    Thread-34 :7038 [wandb_init.py:init():615] setting up manager
+2025-01-24 01:43:46,746 INFO    Thread-34 :7038 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-01-24 01:43:46,746 INFO    Thread-34 :7038 [wandb_init.py:init():623] backend started and connected
+2025-01-24 01:43:46,750 INFO    Thread-34 :7038 [wandb_run.py:_config_callback():1347] config_cb None None {'delta_foot_mass': '0', 'delta_leg_mass': 0.4, 'delta_thigh_mass': '0'}
+2025-01-24 01:43:46,751 INFO    Thread-34 :7038 [wandb_init.py:init():715] updated telemetry
+2025-01-24 01:43:46,761 INFO    Thread-34 :7038 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2025-01-24 01:43:47,127 INFO    Thread-34 :7038 [wandb_run.py:_on_init():2357] communicating current version
+2025-01-24 01:43:47,207 INFO    Thread-34 :7038 [wandb_run.py:_on_init():2366] got version response upgrade_message: "wandb version 0.19.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-01-24 01:43:47,207 INFO    Thread-34 :7038 [wandb_init.py:init():799] starting run threads in backend
+2025-01-24 01:43:47,681 INFO    Thread-34 :7038 [wandb_run.py:_console_start():2335] atexit reg
+2025-01-24 01:43:47,681 INFO    Thread-34 :7038 [wandb_run.py:_redirect():2190] redirect: wrap_raw
+2025-01-24 01:43:47,681 INFO    Thread-34 :7038 [wandb_run.py:_redirect():2255] Wrapping output streams.
+2025-01-24 01:43:47,681 INFO    Thread-34 :7038 [wandb_run.py:_redirect():2280] Redirects installed.
+2025-01-24 01:43:47,682 INFO    Thread-34 :7038 [wandb_init.py:init():842] run started, returning control to user process
+2025-01-24 02:14:48,322 INFO    Thread-34 :7038 [wandb_run.py:_finish():2064] finishing run alex-scavone-politecnico-di-torino/custom-walker-ppo/tknatmy4
+2025-01-24 02:14:48,323 INFO    Thread-34 :7038 [wandb_run.py:_atexit_cleanup():2304] got exitcode: 0
+2025-01-24 02:14:48,323 INFO    Thread-34 :7038 [wandb_run.py:_restore():2287] restore
+2025-01-24 02:14:48,323 INFO    Thread-34 :7038 [wandb_run.py:_restore():2293] restore done
+2025-01-24 02:14:54,012 INFO    Thread-34 :7038 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2025-01-24 02:14:54,012 INFO    Thread-34 :7038 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2025-01-24 02:14:54,017 INFO    Thread-34 :7038 [wandb_run.py:_footer_sync_info():3895] logging synced files

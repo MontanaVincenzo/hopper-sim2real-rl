@@ -1,0 +1,19 @@
+{"time":"2025-01-24T07:23:12.553914796+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"logs_train/run_8/wandb/run-20250124_072312-xf7r4arz/logs/debug-core.log"}
+{"time":"2025-01-24T07:23:12.713425603+01:00","level":"INFO","msg":"created new stream","id":"xf7r4arz"}
+{"time":"2025-01-24T07:23:12.713454897+01:00","level":"INFO","msg":"stream: started","id":"xf7r4arz"}
+{"time":"2025-01-24T07:23:12.713481746+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"xf7r4arz"}
+{"time":"2025-01-24T07:23:12.713502965+01:00","level":"INFO","msg":"handler: started","stream_id":"xf7r4arz"}
+{"time":"2025-01-24T07:23:12.713557467+01:00","level":"INFO","msg":"sender: started","stream_id":"xf7r4arz"}
+{"time":"2025-01-24T07:23:12.929610408+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-24T07:50:44.446988817+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/s322977-politecnico-di-torino/custom-walker-ppo/xf7r4arz/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-01-24T07:53:52.006076957+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/s322977-politecnico-di-torino/custom-walker-ppo/xf7r4arz/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-01-24T07:57:16.322863566+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/s322977-politecnico-di-torino/custom-walker-ppo/xf7r4arz/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-01-24T08:00:26.678917727+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-24T08:00:26.679494008+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-24T08:00:27.67930341+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.668978434,"progress":"597.5KB/597.5KB"}],"total_operations":1}}
+{"time":"2025-01-24T08:00:27.880821348+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-24T08:00:29.105170649+01:00","level":"INFO","msg":"stream: closing","id":"xf7r4arz"}
+{"time":"2025-01-24T08:00:29.105180698+01:00","level":"INFO","msg":"handler: closed","stream_id":"xf7r4arz"}
+{"time":"2025-01-24T08:00:29.105186589+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xf7r4arz"}
+{"time":"2025-01-24T08:00:29.105215303+01:00","level":"INFO","msg":"sender: closed","stream_id":"xf7r4arz"}
+{"time":"2025-01-24T08:00:29.10521828+01:00","level":"INFO","msg":"stream: closed","id":"xf7r4arz"}

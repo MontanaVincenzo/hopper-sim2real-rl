@@ -1,0 +1,17 @@
+{"time":"2025-01-22T09:39:07.747967227+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"target_logs_train/run_14/wandb/run-20250122_093907-5sl511uv/logs/debug-core.log"}
+{"time":"2025-01-22T09:39:07.960654134+01:00","level":"INFO","msg":"created new stream","id":"5sl511uv"}
+{"time":"2025-01-22T09:39:07.960692277+01:00","level":"INFO","msg":"stream: started","id":"5sl511uv"}
+{"time":"2025-01-22T09:39:07.960728423+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"5sl511uv"}
+{"time":"2025-01-22T09:39:07.960748465+01:00","level":"INFO","msg":"sender: started","stream_id":"5sl511uv"}
+{"time":"2025-01-22T09:39:07.960779401+01:00","level":"INFO","msg":"handler: started","stream_id":"5sl511uv"}
+{"time":"2025-01-22T09:39:08.233607589+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-22T10:07:53.939341891+01:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/s322977-politecnico-di-torino/custom-walker-ppo/5sl511uv/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-01-22T10:25:04.029900728+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-22T10:25:04.030882359+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-22T10:25:04.98826358+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.609446121,"progress":"714.7KB/714.7KB"}],"total_operations":1}}
+{"time":"2025-01-22T10:25:05.332690712+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-22T10:25:06.576956375+01:00","level":"INFO","msg":"stream: closing","id":"5sl511uv"}
+{"time":"2025-01-22T10:25:06.576978208+01:00","level":"INFO","msg":"handler: closed","stream_id":"5sl511uv"}
+{"time":"2025-01-22T10:25:06.576983598+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"5sl511uv"}
+{"time":"2025-01-22T10:25:06.577113965+01:00","level":"INFO","msg":"sender: closed","stream_id":"5sl511uv"}
+{"time":"2025-01-22T10:25:06.577129088+01:00","level":"INFO","msg":"stream: closed","id":"5sl511uv"}

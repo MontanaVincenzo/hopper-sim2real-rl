@@ -1,0 +1,19 @@
+{"time":"2025-01-24T02:44:57.276955032+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"logs_train/run_11/wandb/run-20250124_024457-hr5e8x35/logs/debug-core.log"}
+{"time":"2025-01-24T02:44:57.476993373+01:00","level":"INFO","msg":"created new stream","id":"hr5e8x35"}
+{"time":"2025-01-24T02:44:57.477024279+01:00","level":"INFO","msg":"stream: started","id":"hr5e8x35"}
+{"time":"2025-01-24T02:44:57.477052848+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"hr5e8x35"}
+{"time":"2025-01-24T02:44:57.477096775+01:00","level":"INFO","msg":"sender: started","stream_id":"hr5e8x35"}
+{"time":"2025-01-24T02:44:57.477122744+01:00","level":"INFO","msg":"handler: started","stream_id":"hr5e8x35"}
+{"time":"2025-01-24T02:44:57.707361691+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-24T02:57:29.316049751+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/s322977-politecnico-di-torino/custom-walker-ppo/hr5e8x35/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-01-24T03:40:21.061559134+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/s322977-politecnico-di-torino/custom-walker-ppo/hr5e8x35/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-01-24T03:43:41.569614549+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/s322977-politecnico-di-torino/custom-walker-ppo/hr5e8x35/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-01-24T04:03:14.27270923+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-24T04:03:14.273308018+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-24T04:03:15.230305743+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.574426555,"progress":"710.6KB/710.6KB"}],"total_operations":1}}
+{"time":"2025-01-24T04:03:16.86914601+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-24T04:03:18.078386547+01:00","level":"INFO","msg":"stream: closing","id":"hr5e8x35"}
+{"time":"2025-01-24T04:03:18.078397969+01:00","level":"INFO","msg":"handler: closed","stream_id":"hr5e8x35"}
+{"time":"2025-01-24T04:03:18.078403253+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hr5e8x35"}
+{"time":"2025-01-24T04:03:18.078510794+01:00","level":"INFO","msg":"sender: closed","stream_id":"hr5e8x35"}
+{"time":"2025-01-24T04:03:18.078528168+01:00","level":"INFO","msg":"stream: closed","id":"hr5e8x35"}

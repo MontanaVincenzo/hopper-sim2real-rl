@@ -1,0 +1,168 @@
+{
+    "os": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.17",
+    "python": "3.8.20",
+    "heartbeatAt": "2025-01-20T16:14:21.330744",
+    "startedAt": "2025-01-20T16:14:20.737981",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/ale/project-sim2real-montana-scavone/Extension/train.py",
+    "codePathLocal": "train.py",
+    "codePath": "Extension/train.py",
+    "git": {
+        "remote": "git@github.com:PolitoVandal/project-sim2real-montana-scavone.git",
+        "commit": "64bbbf0ff624b2ace2666227e160b445d27133bf"
+    },
+    "email": "alex.scavone@hotmail.it",
+    "root": "/home/ale/project-sim2real-montana-scavone",
+    "host": "DESKTOP-ALE",
+    "username": "ale",
+    "executable": "/home/ale/miniconda3/envs/rl/bin/python",
+    "cpu_count": 12,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 2112.008000000001,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2112.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.008,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2112.008,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 15.7052001953125
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4060",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4060",
+            "memory_total": 8585740288
+        }
+    ],
+    "memory": {
+        "total": 15.534679412841797
+    }
+}

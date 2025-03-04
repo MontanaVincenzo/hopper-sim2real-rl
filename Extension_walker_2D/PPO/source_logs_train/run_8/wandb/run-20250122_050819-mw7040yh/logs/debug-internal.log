@@ -1,0 +1,16 @@
+{"time":"2025-01-22T05:08:19.898937444+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"source_logs_train/run_8/wandb/run-20250122_050819-mw7040yh/logs/debug-core.log"}
+{"time":"2025-01-22T05:08:20.071242933+01:00","level":"INFO","msg":"created new stream","id":"mw7040yh"}
+{"time":"2025-01-22T05:08:20.071272777+01:00","level":"INFO","msg":"stream: started","id":"mw7040yh"}
+{"time":"2025-01-22T05:08:20.071296459+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"mw7040yh"}
+{"time":"2025-01-22T05:08:20.071315824+01:00","level":"INFO","msg":"sender: started","stream_id":"mw7040yh"}
+{"time":"2025-01-22T05:08:20.071350301+01:00","level":"INFO","msg":"handler: started","stream_id":"mw7040yh"}
+{"time":"2025-01-22T05:08:20.284427321+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-22T05:54:04.948015425+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-22T05:54:04.948347317+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-22T05:54:05.948466354+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.659799787,"progress":"711.2KB/711.2KB"}],"total_operations":1}}
+{"time":"2025-01-22T05:54:06.273514363+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-22T05:54:07.4872198+01:00","level":"INFO","msg":"stream: closing","id":"mw7040yh"}
+{"time":"2025-01-22T05:54:07.487229016+01:00","level":"INFO","msg":"handler: closed","stream_id":"mw7040yh"}
+{"time":"2025-01-22T05:54:07.487233897+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mw7040yh"}
+{"time":"2025-01-22T05:54:07.487260818+01:00","level":"INFO","msg":"sender: closed","stream_id":"mw7040yh"}
+{"time":"2025-01-22T05:54:07.487263104+01:00","level":"INFO","msg":"stream: closed","id":"mw7040yh"}

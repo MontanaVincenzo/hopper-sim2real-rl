@@ -1,0 +1,16 @@
+{
+    "_runtime": 1842.922502652,
+    "timesteps": 700000,
+    "source_to_source_mean": 1333.3611131,
+    "source_to_target_std": 257.9294488810101,
+    "_timestamp": 1.7370361640941348e+09,
+    "_wandb": {
+        "runtime": 1842
+    },
+    "_step": 0,
+    "source_to_target_mean": 952.7623458999999,
+    "clip_range": 0.3018410504342818,
+    "source_to_source_std": 213.5719220480982,
+    "ent_coef": 0.0056803612902601025,
+    "learning_rate": 0.00011435601422710556
+}

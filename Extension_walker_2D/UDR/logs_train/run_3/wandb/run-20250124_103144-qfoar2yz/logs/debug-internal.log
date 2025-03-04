@@ -1,0 +1,16 @@
+{"time":"2025-01-24T10:31:44.864348797+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"logs_train/run_3/wandb/run-20250124_103144-qfoar2yz/logs/debug-core.log"}
+{"time":"2025-01-24T10:31:45.094251137+01:00","level":"INFO","msg":"created new stream","id":"qfoar2yz"}
+{"time":"2025-01-24T10:31:45.094281415+01:00","level":"INFO","msg":"stream: started","id":"qfoar2yz"}
+{"time":"2025-01-24T10:31:45.094334232+01:00","level":"INFO","msg":"handler: started","stream_id":"qfoar2yz"}
+{"time":"2025-01-24T10:31:45.094334618+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"qfoar2yz"}
+{"time":"2025-01-24T10:31:45.094665558+01:00","level":"INFO","msg":"sender: started","stream_id":"qfoar2yz"}
+{"time":"2025-01-24T10:31:45.287531762+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-24T11:21:44.262468131+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-24T11:21:44.264580179+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-24T11:21:45.230145319+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.520123878,"progress":"712.1KB/712.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.036293347,"progress":"552B/552B"}],"total_operations":2}}
+{"time":"2025-01-24T11:21:45.787129874+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-24T11:21:47.043306263+01:00","level":"INFO","msg":"stream: closing","id":"qfoar2yz"}
+{"time":"2025-01-24T11:21:47.043331278+01:00","level":"INFO","msg":"handler: closed","stream_id":"qfoar2yz"}
+{"time":"2025-01-24T11:21:47.043338117+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"qfoar2yz"}
+{"time":"2025-01-24T11:21:47.043485271+01:00","level":"INFO","msg":"sender: closed","stream_id":"qfoar2yz"}
+{"time":"2025-01-24T11:21:47.043561905+01:00","level":"INFO","msg":"stream: closed","id":"qfoar2yz"}

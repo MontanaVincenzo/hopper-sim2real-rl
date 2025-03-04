@@ -1,0 +1,11 @@
+{
+    "learning_rate": 0.0004329019264083943,
+    "clip_range": 0.32027045597784387,
+    "entropy_coef": 0.0,
+    "source_to_source_mean": 1775.9864925,
+    "source_to_source_std": 131.99253683218512,
+    "source_to_target_mean": 952.5964389999999,
+    "source_to_target_std": 25.640810986276435,
+    "#run": 5,
+    "entropy_coefficient": 0.012119784150808024
+}

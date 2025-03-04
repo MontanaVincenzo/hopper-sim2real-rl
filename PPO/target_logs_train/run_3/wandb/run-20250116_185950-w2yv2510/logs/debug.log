@@ -1,0 +1,48 @@
+2025-01-16 18:59:50,243 INFO    Thread-16 :152087 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2025-01-16 18:59:50,243 INFO    Thread-16 :152087 [wandb_setup.py:_flush():76] Configure stats pid to 152087
+2025-01-16 18:59:50,243 INFO    Thread-16 :152087 [wandb_setup.py:_flush():76] Loading settings from /home/ale/.config/wandb/settings
+2025-01-16 18:59:50,243 INFO    Thread-16 :152087 [wandb_setup.py:_flush():76] Loading settings from /home/ale/project-sim2real-montana-scavone/PPO/wandb/settings
+2025-01-16 18:59:50,243 INFO    Thread-16 :152087 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'custom-hopper-ppo', 'entity': 'alex-scavone-politecnico-di-torino', 'root_dir': '/home/ale/project-sim2real-montana-scavone/PPO', 'run_id': 'w2yv2510', 'sweep_param_path': '/home/ale/project-sim2real-montana-scavone/PPO/wandb/sweep-i3zf2gy7/config-w2yv2510.yaml', 'sweep_id': 'i3zf2gy7'}
+2025-01-16 18:59:50,243 INFO    Thread-16 :152087 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-01-16 18:59:50,243 INFO    Thread-16 :152087 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'PPO/train.py', 'program_abspath': '/home/ale/project-sim2real-montana-scavone/PPO/train.py', 'program': '/home/ale/project-sim2real-montana-scavone/PPO/train.py'}
+2025-01-16 18:59:50,243 INFO    Thread-16 :152087 [wandb_setup.py:_flush():76] Applying login settings: {}
+2025-01-16 18:59:50,243 INFO    Thread-16 :152087 [wandb_init.py:_log_setup():521] Logging user logs to ./target_logs_train/run_3/wandb/run-20250116_185950-w2yv2510/logs/debug.log
+2025-01-16 18:59:50,243 INFO    Thread-16 :152087 [wandb_init.py:_log_setup():522] Logging internal logs to ./target_logs_train/run_3/wandb/run-20250116_185950-w2yv2510/logs/debug-internal.log
+2025-01-16 18:59:50,244 INFO    Thread-16 :152087 [wandb_init.py:init():561] calling init triggers
+2025-01-16 18:59:50,244 INFO    Thread-16 :152087 [wandb_init.py:init():568] wandb.init called with sweep_config: {'clip_range': 0.3030743732018844, 'ent_coef': 0.011837430681923524, 'learning_rate': 0.000758518325364896}
+config: {}
+2025-01-16 18:59:50,244 INFO    Thread-16 :152087 [wandb_init.py:init():611] starting backend
+2025-01-16 18:59:50,244 INFO    Thread-16 :152087 [wandb_init.py:init():615] setting up manager
+2025-01-16 18:59:50,246 INFO    Thread-16 :152087 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-01-16 18:59:50,246 INFO    Thread-16 :152087 [wandb_init.py:init():623] backend started and connected
+2025-01-16 18:59:50,250 INFO    Thread-16 :152087 [wandb_run.py:_config_callback():1347] config_cb None None {'clip_range': 0.3030743732018844, 'ent_coef': 0.011837430681923524, 'learning_rate': 0.000758518325364896}
+2025-01-16 18:59:50,251 INFO    Thread-16 :152087 [wandb_init.py:init():715] updated telemetry
+2025-01-16 18:59:50,258 INFO    Thread-16 :152087 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2025-01-16 18:59:50,617 INFO    Thread-16 :152087 [wandb_run.py:_on_init():2357] communicating current version
+2025-01-16 18:59:50,679 INFO    Thread-16 :152087 [wandb_run.py:_on_init():2366] got version response upgrade_message: "wandb version 0.19.3 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-01-16 18:59:50,679 INFO    Thread-16 :152087 [wandb_init.py:init():799] starting run threads in backend
+2025-01-16 18:59:51,156 INFO    Thread-16 :152087 [wandb_run.py:_console_start():2335] atexit reg
+2025-01-16 18:59:51,156 INFO    Thread-16 :152087 [wandb_run.py:_redirect():2190] redirect: wrap_raw
+2025-01-16 18:59:51,157 INFO    Thread-16 :152087 [wandb_run.py:_redirect():2255] Wrapping output streams.
+2025-01-16 18:59:51,157 INFO    Thread-16 :152087 [wandb_run.py:_redirect():2280] Redirects installed.
+2025-01-16 18:59:51,157 INFO    Thread-16 :152087 [wandb_init.py:init():842] run started, returning control to user process
+2025-01-16 19:21:45,423 ERROR   Thread-1  :152087 [internal_api.py:execute():373] 502 response executing GraphQL.
+2025-01-16 19:21:45,423 ERROR   Thread-1  :152087 [internal_api.py:execute():374] 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-01-16 19:23:21,611 INFO    Thread-16 :152087 [wandb_run.py:_finish():2064] finishing run alex-scavone-politecnico-di-torino/custom-hopper-ppo/w2yv2510
+2025-01-16 19:23:21,611 INFO    Thread-16 :152087 [wandb_run.py:_atexit_cleanup():2304] got exitcode: 0
+2025-01-16 19:23:21,611 INFO    Thread-16 :152087 [wandb_run.py:_restore():2287] restore
+2025-01-16 19:23:21,611 INFO    Thread-16 :152087 [wandb_run.py:_restore():2293] restore done
+2025-01-16 19:23:26,956 INFO    Thread-16 :152087 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2025-01-16 19:23:26,956 INFO    Thread-16 :152087 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2025-01-16 19:23:26,963 INFO    Thread-16 :152087 [wandb_run.py:_footer_sync_info():3895] logging synced files

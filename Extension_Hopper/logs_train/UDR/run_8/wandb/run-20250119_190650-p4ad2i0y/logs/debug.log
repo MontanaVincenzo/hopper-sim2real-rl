@@ -1,0 +1,30 @@
+2025-01-19 19:06:50,061 INFO    Thread-21 :2279 [wandb_setup.py:_flush():68] Current SDK version is 0.19.2
+2025-01-19 19:06:50,061 INFO    Thread-21 :2279 [wandb_setup.py:_flush():68] Configure stats pid to 2279
+2025-01-19 19:06:50,061 INFO    Thread-21 :2279 [wandb_setup.py:_flush():68] Loading settings from /home/vince/.config/wandb/settings
+2025-01-19 19:06:50,061 INFO    Thread-21 :2279 [wandb_setup.py:_flush():68] Loading settings from /home/vince/project-sim2real-montana-scavone/Extension/wandb/settings
+2025-01-19 19:06:50,061 INFO    Thread-21 :2279 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-01-19 19:06:50,061 INFO    Thread-21 :2279 [wandb_init.py:_log_setup():523] Logging user logs to ./logs_train/run_8/wandb/run-20250119_190650-p4ad2i0y/logs/debug.log
+2025-01-19 19:06:50,061 INFO    Thread-21 :2279 [wandb_init.py:_log_setup():524] Logging internal logs to ./logs_train/run_8/wandb/run-20250119_190650-p4ad2i0y/logs/debug-internal.log
+2025-01-19 19:06:50,061 INFO    Thread-21 :2279 [wandb_init.py:init():641] calling init triggers
+2025-01-19 19:06:50,061 INFO    Thread-21 :2279 [wandb_init.py:init():647] wandb.init called with sweep_config: {'delta_foot_mass': 0, 'delta_leg_mass': 0, 'delta_thigh_mass': 0.25}
+config: {}
+2025-01-19 19:06:50,061 INFO    Thread-21 :2279 [wandb_init.py:init():674] starting backend
+2025-01-19 19:06:50,268 INFO    Thread-21 :2279 [wandb_init.py:init():678] sending inform_init request
+2025-01-19 19:06:50,271 INFO    Thread-21 :2279 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-01-19 19:06:50,272 INFO    Thread-21 :2279 [wandb_init.py:init():693] backend started and connected
+2025-01-19 19:06:50,273 INFO    Thread-21 :2279 [wandb_run.py:_config_callback():1283] config_cb None None {'delta_foot_mass': 0, 'delta_leg_mass': 0, 'delta_thigh_mass': 0.25}
+2025-01-19 19:06:50,278 INFO    Thread-21 :2279 [wandb_init.py:init():786] updated telemetry
+2025-01-19 19:06:50,288 INFO    Thread-21 :2279 [wandb_init.py:init():818] communicating run to backend with 90.0 second timeout
+2025-01-19 19:06:50,773 INFO    Thread-21 :2279 [wandb_init.py:init():868] starting run threads in backend
+2025-01-19 19:06:50,819 INFO    Thread-21 :2279 [wandb_run.py:_console_start():2415] atexit reg
+2025-01-19 19:06:50,819 INFO    Thread-21 :2279 [wandb_run.py:_redirect():2265] redirect: wrap_raw
+2025-01-19 19:06:50,820 INFO    Thread-21 :2279 [wandb_run.py:_redirect():2330] Wrapping output streams.
+2025-01-19 19:06:50,820 INFO    Thread-21 :2279 [wandb_run.py:_redirect():2355] Redirects installed.
+2025-01-19 19:06:50,820 INFO    Thread-21 :2279 [wandb_init.py:init():910] run started, returning control to user process
+2025-01-19 19:36:19,198 INFO    Thread-21 :2279 [wandb_run.py:_finish():2140] finishing run s322977-politecnico-di-torino/custom-hopper-ppo/p4ad2i0y
+2025-01-19 19:36:19,198 INFO    Thread-21 :2279 [wandb_run.py:_atexit_cleanup():2380] got exitcode: 0
+2025-01-19 19:36:19,199 INFO    Thread-21 :2279 [wandb_run.py:_restore():2362] restore
+2025-01-19 19:36:19,199 INFO    Thread-21 :2279 [wandb_run.py:_restore():2368] restore done
+2025-01-19 19:36:21,654 INFO    Thread-21 :2279 [wandb_run.py:_footer_history_summary_info():3984] rendering history
+2025-01-19 19:36:21,655 INFO    Thread-21 :2279 [wandb_run.py:_footer_history_summary_info():4016] rendering summary
+2025-01-19 19:36:21,657 INFO    Thread-21 :2279 [wandb_run.py:_footer_sync_info():3945] logging synced files

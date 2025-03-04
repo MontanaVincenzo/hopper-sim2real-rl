@@ -1,0 +1,1109 @@
+{'delta_foot_mass': 0.35, 'delta_leg_mass': 0.35, 'delta_thigh_mass': 0.35}
+Using cuda device
+Wrapping the env in a DummyVecEnv.
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 18.3     |
+|    ep_rew_mean     | -0.497   |
+| time/              |          |
+|    fps             | 937      |
+|    iterations      | 1        |
+|    time_elapsed    | 2        |
+|    total_timesteps | 2048     |
+---------------------------------
+
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 22.8       |
+|    ep_rew_mean          | 3.32       |
+| time/                   |            |
+|    fps                  | 755        |
+|    iterations           | 2          |
+|    time_elapsed         | 5          |
+|    total_timesteps      | 4096       |
+| train/                  |            |
+|    approx_kl            | 0.03387253 |
+|    clip_fraction        | 0.273      |
+|    clip_range           | 0.266      |
+|    entropy_loss         | -8.47      |
+|    explained_variance   | -0.0403    |
+|    learning_rate        | 0.000494   |
+|    loss                 | 2.8        |
+|    n_updates            | 10         |
+|    policy_gradient_loss | -0.0499    |
+|    std                  | 0.988      |
+|    value_loss           | 8.31       |
+----------------------------------------
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 27.2       |
+|    ep_rew_mean          | 8.33       |
+| time/                   |            |
+|    fps                  | 724        |
+|    iterations           | 3          |
+|    time_elapsed         | 8          |
+|    total_timesteps      | 6144       |
+| train/                  |            |
+|    approx_kl            | 0.03297875 |
+|    clip_fraction        | 0.253      |
+|    clip_range           | 0.266      |
+|    entropy_loss         | -8.41      |
+|    explained_variance   | 0.137      |
+|    learning_rate        | 0.000494   |
+|    loss                 | 4.74       |
+|    n_updates            | 20         |
+|    policy_gradient_loss | -0.0558    |
+|    std                  | 0.979      |
+|    value_loss           | 10.7       |
+----------------------------------------
+
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 38          |
+|    ep_rew_mean          | 9.63        |
+| time/                   |             |
+|    fps                  | 700         |
+|    iterations           | 4           |
+|    time_elapsed         | 11          |
+|    total_timesteps      | 8192        |
+| train/                  |             |
+|    approx_kl            | 0.026545089 |
+|    clip_fraction        | 0.198       |
+|    clip_range           | 0.266       |
+|    entropy_loss         | -8.38       |
+|    explained_variance   | 0.178       |
+|    learning_rate        | 0.000494    |
+|    loss                 | 10          |
+|    n_updates            | 30          |
+|    policy_gradient_loss | -0.0459     |
+|    std                  | 0.977       |
+|    value_loss           | 21.1        |
+-----------------------------------------
+
+Eval num_timesteps=10000, episode_reward=256.46 +/- 3.31
+Episode length: 136.50 +/- 2.46
+-----------------------------------------
+| eval/                   |             |
+|    mean_ep_length       | 136         |
+|    mean_reward          | 256         |
+| time/                   |             |
+|    total_timesteps      | 10000       |
+| train/                  |             |
+|    approx_kl            | 0.018148331 |
+|    clip_fraction        | 0.0872      |
+|    clip_range           | 0.266       |
+|    entropy_loss         | -8.38       |
+|    explained_variance   | 0.307       |
+|    learning_rate        | 0.000494    |
+|    loss                 | 12.1        |
+|    n_updates            | 40          |
+|    policy_gradient_loss | -0.0272     |
+|    std                  | 0.978       |
+|    value_loss           | 32.9        |
+-----------------------------------------
+New best mean reward!
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 49.1     |
+|    ep_rew_mean     | 17.7     |
+| time/              |          |
+|    fps             | 631      |
+|    iterations      | 5        |
+|    time_elapsed    | 16       |
+|    total_timesteps | 10240    |
+---------------------------------
+[35m   1%[39m [38m━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[39m [32m11,332/1,000,000 [39m [ [33m0:00:18[39m < [36m0:27:11[39m , [31m606 it/s[39m ]
+|    clip_range           | 0.266       |
+|    entropy_loss         | -8.37       |
+|    explained_variance   | 0.469       |
+|    learning_rate        | 0.000494    |
+|    loss                 | 40          |
+|    n_updates            | 50          |
+|    policy_gradient_loss | -0.0259     |
+|    std                  | 0.976       |
+|    value_loss           | 74.5        |
+-----------------------------------------
+[35m   1%[39m [38m━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[39m [32m12,245/1,000,000 [39m [ [33m0:00:20[39m < [36m0:26:58[39m , [31m611 it/s[39m ]
+|    clip_range           | 0.266       |
+|    explained_variance   | 0.644      ||
+|    learning_rate        | 0.000494   |
+|    loss                 | 27.9       |
+|    n_updates            | 60         |
+|    policy_gradient_loss | -0.0217    |
+|    std                  | 0.974      |
+|    value_loss           | 97         |
+----------------------------------------
+[35m   1%[39m [38m━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[39m [32m14,336/1,000,000 [39m [ [33m0:00:24[39m < [36m0:27:00[39m , [31m609 it/s[39m ]
+|    explained_variance   | 0.644      ||
+|    loss                 | 28.6        |
+|    n_updates            | 70          |
+|    policy_gradient_loss | -0.0177     |
+|    std                  | 0.974       |
+|    value_loss           | 69.3        |
+-----------------------------------------
+[35m   2%[39m [38m━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[39m [32m16,990/1,000,000 [39m [ [33m0:00:28[39m < [36m0:27:41[39m , [31m592 it/s[39m ]
+|    policy_gradient_loss | -0.0185     |
+|    time_elapsed         | 30          |
+|    total_timesteps      | 18432       |
+| train/                  |             |
+|    approx_kl            | 0.011637185 |
+|    clip_fraction        | 0.0438      |
+|    clip_range           | 0.266       |
+|    entropy_loss         | -8.35       |
+|    explained_variance   | 0.707       |
+|    learning_rate        | 0.000494    |
+|    loss                 | 42.9        |
+|    n_updates            | 80          |
+|    policy_gradient_loss | -0.0185     |
+|    std                  | 0.973       |
+|    value_loss           | 135         |
+-----------------------------------------
+[35m   2%[39m [38m━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[39m [32m19,744/1,000,000 [39m [ [33m0:00:32[39m < [36m0:27:16[39m , [31m599 it/s[39m ]
+[35m   2%[39m [38m━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[39m [32m20,438/1,000,000 [39m [ [33m0:00:34[39m < [36m0:28:53[39m , [31m565 it/s[39m ]
+|    policy_gradient_loss | -0.0171     |
+|    std                  | 0.971       |
+|    value_loss           | 164         |
+-----------------------------------------
+New best mean reward!
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 119      |
+|    ep_rew_mean     | 69.4     |
+| time/              |          |
+|    fps             | 588      |
+|    iterations      | 10       |
+|    time_elapsed    | 34       |
+|    total_timesteps | 20480    |
+---------------------------------
+[35m   2%[39m [38m━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[39m [32m21,547/1,000,000 [39m [ [33m0:00:37[39m < [36m0:29:04[39m , [31m561 it/s[39m ]
+|    loss                 | 88.1        |
+|    n_updates            | 100         |
+|    policy_gradient_loss | -0.0158     |
+|    std                  | 0.973       |
+|    value_loss           | 114         |
+-----------------------------------------
+[35m   2%[39m [38m━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[39m [32m22,516/1,000,000 [39m [ [33m0:00:39[39m < [36m0:29:06[39m , [31m560 it/s[39m ]
+|    loss                 | 88.1        |
+|    approx_kl            | 0.010220556 |
+|    value_loss           | 173         |
+-----------------------------------------
+[35m   3%[39m [38m━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[39m [32m26,587/1,000,000 [39m [ [33m0:00:45[39m < [36m0:28:48[39m , [31m564 it/s[39m ]
+|    value_loss           | 173         |
+|    explained_variance   | 0.797       |
+| train/                  |             |
+|    ep_len_mean     | 176      |       |
+|    total_timesteps      | 32768       |
+|    total_timesteps      | 32768       |
+|    policy_gradient_loss | -0.0215    ||
+|    policy_gradient_loss | -0.0215    ||
+|    clip_range           | 0.266       |
+[35m   4%[39m [38m━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[39m [32m38,827/1,000,000 [39m [ [33m0:01:05[39m < [36m0:25:36[39m , [31m626 it/s[39m ]
+[35m   4%[39m [38m━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[39m [32m39,966/1,000,000 [39m [ [33m0:01:07[39m < [36m0:25:19[39m , [31m632 it/s[39m ]
+|    n_updates            | 190         |277.91 +/- 3.34
+|    n_updates            | 190         |277.91 +/- 3.34
+|    n_updates            | 200         |277.91 +/- 3.34
+|    clip_fraction        | 0.0549      |277.91 +/- 3.34
+|    clip_fraction        | 0.0549      |277.91 +/- 3.34
+----------------------------------------|277.91 +/- 3.34
+|    learning_rate        | 0.000494    |277.91 +/- 3.34
+|    learning_rate        | 0.000494    |277.91 +/- 3.34
+| time/              |          |911526 |277.91 +/- 3.34
+| time/              |          |911526 |277.91 +/- 3.34
+|    approx_kl            | 0.014460722 |277.91 +/- 3.34
+|    approx_kl            | 0.014460722 |277.91 +/- 3.34
+|    value_loss           | 96.9        |277.91 +/- 3.34
+|    explained_variance   | 0.915       |277.91 +/- 3.34
+|    explained_variance   | 0.915       |277.91 +/- 3.34
+|    total_timesteps      | 59392       |277.91 +/- 3.34
+|    std                  | 0.985       |
+|    std                  | 0.985       |
+|    std                  | 0.984       |
+|    std                  | 0.984       |
+|    entropy_loss         | -8.42       |
+|    entropy_loss         | -8.42       |
+|    time_elapsed         | 111        ||
+|    n_updates            | 330         |
+|    n_updates            | 330         |
+|    clip_range           | 0.266       |
+|    fps             | 596      |       |
+|    clip_fraction        | 0.127      ||
+|    clip_fraction        | 0.127      ||
+|    std                  | 1           |
+|    std                  | 1           |
+|    std                  | 1.01       ||
+|    std                  | 1.01       ||
+|    std                  | 1           |
+|    explained_variance   | 0.907       |
+|    time_elapsed    | 137      |       |
+|    time_elapsed    | 137      |       |
+|    std                  | 0.986       |
+|    entropy_loss         | -8.44       |
+|    entropy_loss         | -8.44       |
+|    std                  | 0.996       |
+|    std                  | 0.996       |
+|    value_loss           | 61         ||
+|    std                  | 1           |
+|    std                  | 1           |
+|    entropy_loss         | -8.5        |
+|    entropy_loss         | -8.5        |
+|    std                  | 1          ||
+|    entropy_loss         | -8.5        |
+|    entropy_loss         | -8.5        |
+|    value_loss           | 49.1        |
+|    value_loss           | 49.1        |
+|    std                  | 1.01       ||
+|    std                  | 1.01       ||
+|    std                  | 1.01        |
+|    entropy_loss         | -8.58       |
+|    entropy_loss         | -8.58       |
+|    std                  | 1.01        |
+|    std                  | 1.01        |
+|    value_loss           | 29.4        |
+|    value_loss           | 29.4        |
+|    std                  | 1.01       ||
+|    entropy_loss         | -8.58       |
+|    entropy_loss         | -8.58       |
+|    std                  | 1.01        |
+|    std                  | 1.01        |
+|    std                  | 1.02       ||
+|    explained_variance   | 0.971      ||
+|    total_timesteps | 120832   |      ||
+|    explained_variance   | 0.964       |
+|    explained_variance   | 0.964       |
+|    std                  | 1.02        |
+|    std                  | 1.02        |
+|    std                  | 1.02        |
+|    entropy_loss         | -8.65       |
+|    entropy_loss         | -8.65       |
+|    value_loss           | 27.6        |
+|    value_loss           | 27.6        |
+|    std                  | 1.01        |
+|    std                  | 1.01        |
+|    std                  | 1.02       ||
+|    entropy_loss         | -8.63      ||
+|    entropy_loss         | -8.63      ||
+|    std                  | 1.02        |
+|    std                  | 1.02        |
+|    value_loss           | 52.4        |
+|    value_loss           | 52.4        |
+|    std                  | 1.04        |
+|    std                  | 1.04        |
+|    std                  | 1.04        |
+|    entropy_loss         | -8.75      ||
+|    entropy_loss         | -8.75      ||
+|    std                  | 1.05       ||
+|    std                  | 1.05       ||
+|    value_loss           | 40.3        |
+|    value_loss           | 40.3        |
+|    std                  | 1.05       ||
+|    std                  | 1.05       ||
+|    std                  | 1.05        |
+|    std                  | 1.05        |
+|    std                  | 1.05        |
+|    entropy_loss         | -8.82       |
+|    entropy_loss         | -8.82       |
+|    value_loss           | 78.4        |
+|    value_loss           | 78.4        |
+|    std                  | 1.06     |  |
+|    std                  | 1.06     |  |
+|    std                  | 1.07        |
+|    std                  | 1.07        |
+|    std                  | 1.07      | |
+|    entropy_loss         | -8.89       |
+|    total_timesteps      | 170000      |
+| rollout/           |          |0      |
+| rollout/           |          |0      |
+|    std                  | 1.06        |
+|    std                  | 1.06        |
+|    std                  | 1.05        |
+|    entropy_loss         | -8.81       |
+|    entropy_loss         | -8.81       |
+|    entropy_loss         | -8.81       |
+|    value_loss           | 79.2       ||
+|    value_loss           | 79.2       ||
+|    std                  | 1.06        |
+|    entropy_loss         | -8.84       |
+|    entropy_loss         | -8.84       |
+|    std                  | 1.06        |
+|    entropy_loss         | -8.86       |
+|    entropy_loss         | -8.86       |
+|    entropy_loss         | -8.86       |
+|    value_loss           | 123         |
+|    value_loss           | 123         |
+|    value_loss           | 123         |
+|    explained_variance   | 0.954       |
+|    explained_variance   | 0.954       |
+|    std                  | 1.05        |
+|    entropy_loss         | -8.79       |
+|    entropy_loss         | -8.79       |
+|    value_loss           | 181         |
+|    value_loss           | 181         |
+|    std                  | 1.06        |
+|    std                  | 1.06        |
+|    std                  | 1.05        |
+|    std                  | 1.05        |
+|    std                  | 1.06        |
+|    std                  | 1.06        |
+|    std                  | 1.06        |
+|    std                  | 1.06        |
+|    value_loss           | 65.3        |
+|    value_loss           | 65.3        |
+|    value_loss           | 65.3        |
+|    std                  | 1.06        |
+|    entropy_loss         | -8.83     | |
+|    entropy_loss         | -8.83     | |
+|    std                  | 1.06        |
+|    std                  | 1.06        |
+|    std                  | 1.06        |
+|    std                  | 1.06        |
+|    value_loss           | 114        ||
+|    value_loss           | 114        ||
+|    std                  | 1.08       ||
+|    std                  | 1.08       ||
+|    std                  | 1.08        |
+|    std                  | 1.08        |
+|    std                  | 1.08        |
+|    entropy_loss         | -9.01       |
+|    entropy_loss         | -9.01       |
+|    value_loss           | 105         |
+|    value_loss           | 105         |
+|    value_loss           | 105         |
+|    std                  | 1.08        |
+|    std                  | 1.08        |
+|    std                  | 1.09        |
+|    entropy_loss         | -9          |
+|    entropy_loss         | -9          |
+|    std                  | 1.08       ||
+|    std                  | 1.08       ||
+|    value_loss           | 168         |
+|    value_loss           | 168         |
+|    value_loss           | 168         |
+|    std                  | 1.1         |
+|    std                  | 1.1         |
+|    std                  | 1.1         |
+|    std                  | 1.1         |
+|    std                  | 1.09        |
+|    entropy_loss         | -9.03       |
+|    entropy_loss         | -9.03       |
+|    value_loss           | 117         |
+|    value_loss           | 117         |
+|    value_loss           | 117         |
+|    std                  | 1.09        |
+|    std                  | 1.09        |
+|    std                  | 1.1         |
+|    entropy_loss         | -9.1        |
+|    entropy_loss         | -9.1        |
+|    entropy_loss         | -9.1        |
+|    value_loss           | 193        ||
+|    value_loss           | 193        ||
+|    std                  | 1.11        |
+|    entropy_loss         | -9.1        |
+|    entropy_loss         | -9.1        |
+|    std                  | 1.09       ||
+|    std                  | 1.09       ||
+|    std                  | 1.11        |
+|    std                  | 1.11        |
+|    std                  | 1.11        |
+|    value_loss           | 128         |
+|    value_loss           | 222         |
+|    value_loss           | 222         |
+|    explained_variance   | 0.886       |
+|    explained_variance   | 0.886       |
+|    std                  | 1.12       ||
+|    std                  | 1.12       ||
+|    std                  | 1.12        |
+|    std                  | 1.12        |
+|    std                  | 1.12        |
+|    value_loss           | 147         |
+|    std                  | 1.12       ||
+|    std                  | 1.12       ||
+|    entropy_loss         | -9.2        |
+|    entropy_loss         | -9.2        |
+|    std                  | 1.12       ||
+|    entropy_loss         | -9.18       |
+|    entropy_loss         | -9.18       |
+|    entropy_loss         | -9.18       |
+|    value_loss           | 108        ||
+|    value_loss           | 108        ||
+|    std                  | 1.14        |
+|    std                  | 1.14        |
+|    std                  | 1.15        |
+|    std                  | 1.15        |
+|    std                  | 1.16        |
+|    entropy_loss         | -9.37       |
+|    entropy_loss         | -9.37       |
+|    entropy_loss         | -9.37       |
+|    value_loss           | 80.5       ||
+|    value_loss           | 80.5       ||
+|    std                  | 1.17        |
+|    entropy_loss         | -9.46       |
+|    entropy_loss         | -9.46       |
+|    std                  | 1.18        |
+|    std                  | 1.18        |
+|    std                  | 1.18       ||
+|    explained_variance   | 0.951       |
+|    total_timesteps | 311296   |       |
+|    total_timesteps | 311296   |       |
+|    std                  | 1.18        |
+|    entropy_loss         | -9.52       |
+|    entropy_loss         | -9.52       |
+|    std                  | 1.18        |
+|    std                  | 1.18        |
+|    std                  | 1.19       ||
+|    std                  | 1.19       ||
+|    value_loss           | 95.9       ||
+|    value_loss           | 95.9       ||
+|    std                  | 1.17        |
+|    std                  | 1.17        |
+|    std                  | 1.18        |
+|    entropy_loss         | -9.51       |
+|    entropy_loss         | -9.51       |
+|    std                  | 1.19        |
+|    std                  | 1.19        |
+|    value_loss           | 172         |
+|    value_loss           | 172         |
+|    std                  | 1.19        |
+|    std                  | 1.19        |
+|    std                  | 1.19       ||
+|    std                  | 1.19       ||
+|    std                  | 1.19        |
+|    entropy_loss         | -9.57       |
+|    entropy_loss         | -9.57       |
+|    value_loss           | 199         |
+|    value_loss           | 199         |
+|    std                  | 1.19        |
+|    std                  | 1.19        |
+|    std                  | 1.19        |
+|    std                  | 1.19        |
+|    std                  | 1.19        |
+|    std                  | 1.19        |
+|    value_loss           | 123         |
+|    value_loss           | 123         |
+|    std                  | 1.19        |
+|    entropy_loss         | -9.54       |
+|    entropy_loss         | -9.54       |
+|    std                  | 1.2         |
+|    entropy_loss         | -9.63       |
+|    entropy_loss         | -9.63       |
+|    value_loss           | 134         |
+|    value_loss           | 134         |
+|    std                  | 1.22       ||
+|    std                  | 1.22       ||
+|    std                  | 1.21        |
+|    std                  | 1.21        |
+|    std                  | 1.21        |
+|    entropy_loss         | -9.64       |
+|    entropy_loss         | -9.64       |
+|    entropy_loss         | -9.64       |
+|    value_loss           | 172         |
+|    value_loss           | 172         |
+|    std                  | 1.21       ||
+|    entropy_loss         | -9.62       |
+|    entropy_loss         | -9.62       |
+|    std                  | 1.21        |
+|    std                  | 1.21        |
+|    std                  | 1.2        ||
+|    std                  | 1.2        ||
+|    value_loss           | 84.9        |
+|    value_loss           | 84.9        |
+|    std                  | 1.23       ||
+|    std                  | 1.23       ||
+|    std                  | 1.22        |
+|    entropy_loss         | -9.69       |
+|    entropy_loss         | -9.69       |
+|    std                  | 1.22       ||
+|    std                  | 1.22       ||
+|    value_loss           | 133        ||
+|    value_loss           | 133        ||
+|    std                  | 1.21       ||
+|    std                  | 1.21       ||
+|    std                  | 1.22       ||
+|    entropy_loss         | -9.7        |
+|    entropy_loss         | -9.7        |
+|    std                  | 1.24        |
+|    std                  | 1.24        |
+|    value_loss           | 105         |
+|    value_loss           | 105         |
+|    std                  | 1.25        |
+|    std                  | 1.25        |
+|    std                  | 1.24        |
+|    std                  | 1.24        |
+|    std                  | 1.23        |
+|    entropy_loss         | -9.72       |
+|    entropy_loss         | -9.72       |
+|    value_loss           | 88          |
+|    value_loss           | 88          |
+|    value_loss           | 88          |
+|    std                  | 1.23        |
+|    entropy_loss         | -9.72      ||
+|    entropy_loss         | -9.72      ||
+|    std                  | 1.24        |
+|    std                  | 1.24        |
+|    std                  | 1.23        |
+|    explained_variance   | 0.978      ||
+|    total_timesteps | 421888   |      ||
+|    total_timesteps | 421888   |      ||
+|    std                  | 1.23       ||
+|    std                  | 1.23       ||
+|    std                  | 1.23       ||
+|    entropy_loss         | -9.71     |||
+|    entropy_loss         | -9.71     |||
+|    entropy_loss         | -9.71     |||
+|    value_loss           | 64.9       ||
+|    value_loss           | 64.9       ||
+|    std                  | 1.21        |
+|    std                  | 1.21        |
+|    std                  | 1.22        |
+|    std                  | 1.22        |
+|    std                  | 1.21        |
+|    std                  | 1.21        |
+|    std                  | 1.22       ||
+|    std                  | 1.22       ||
+|    value_loss           | 70.2        |
+|    value_loss           | 70.2        |
+|    value_loss           | 70.2        |
+|    std                  | 1.21        |
+|    entropy_loss         | -9.6       ||
+|    entropy_loss         | -9.6       ||
+|    std                  | 1.21        |
+|    std                  | 1.21        |
+|    std                  | 1.2         |
+|    std                  | 1.2         |
+|    value_loss           | 104         |
+|    value_loss           | 104         |
+|    std                  | 1.2        ||
+|    std                  | 1.2        ||
+|    std                  | 1.2        ||
+|    std                  | 1.2        ||
+|    std                  | 1.19       ||
+|    std                  | 1.19       ||
+|    std                  | 1.19        |
+|    std                  | 1.19        |
+|    value_loss           | 90.3        |
+|    value_loss           | 90.3        |
+|    std                  | 1.19       ||
+|    std                  | 1.19       ||
+|    std                  | 1.19        |
+|    std                  | 1.19        |
+|    std                  | 1.19        |
+|    entropy_loss         | -9.46       |
+|    entropy_loss         | -9.46       |
+|    value_loss           | 140        ||
+|    value_loss           | 140        ||
+|    value_loss           | 140        ||
+|    std                  | 1.17       ||
+|    entropy_loss         | -9.4        |
+|    entropy_loss         | -9.4        |
+|    std                  | 1.17       ||
+|    std                  | 1.17       ||
+|    std                  | 1.19        |
+|    std                  | 1.19        |
+|    value_loss           | 89.5       ||
+|    value_loss           | 89.5       ||
+|    std                  | 1.2         |
+|    std                  | 1.2         |
+|    std                  | 1.2        ||
+|    std                  | 1.2        ||
+|    std                  | 1.2         |
+|    entropy_loss         | -9.47       |
+|    entropy_loss         | -9.47       |
+|    value_loss           | 106         |
+|    value_loss           | 106         |
+|    value_loss           | 106         |
+|    std                  | 1.2         |
+|    entropy_loss         | -9.48       |
+|    entropy_loss         | -9.48       |
+|    std                  | 1.18        |
+|    entropy_loss         | -9.46       |
+|    entropy_loss         | -9.46       |
+|    value_loss           | 205         |
+|    value_loss           | 205         |
+|    value_loss           | 205         |
+|    std                  | 1.2         |
+|    std                  | 1.2         |
+|    std                  | 1.2        ||
+|    entropy_loss         | -9.53      ||
+|    entropy_loss         | -9.53      ||
+|    std                  | 1.2        ||
+|    explained_variance   | 0.955      ||
+|    explained_variance   | 0.955      ||
+|    ep_rew_mean     | 959      |      ||
+|    ep_rew_mean     | 959      |      ||
+|    std                  | 1.2         |
+|    std                  | 1.2         |
+|    std                  | 1.2         |
+|    entropy_loss         | -9.48       |
+|    entropy_loss         | -9.48       |
+|    entropy_loss         | -9.48       |
+|    value_loss           | 163         |
+|    value_loss           | 163         |
+|    std                  | 1.2         |
+|    entropy_loss         | -9.47      ||
+|    entropy_loss         | -9.47      ||
+|    std                  | 1.2        ||
+|    std                  | 1.2        ||
+|    std                  | 1.21        |
+|    std                  | 1.21        |
+|    value_loss           | 203         |
+|    value_loss           | 203         |
+|    std                  | 1.21        |
+|    entropy_loss         | -9.55      ||
+|    entropy_loss         | -9.55      ||
+|    std                  | 1.21       ||
+|    std                  | 1.21       ||
+|    std                  | 1.2       |||
+|    std                  | 1.2       |||
+|    value_loss           | 111         |
+|    value_loss           | 111         |
+|    std                  | 1.21        |
+|    entropy_loss         | -9.54       |
+|    entropy_loss         | -9.54       |
+|    std                  | 1.21        |
+|    std                  | 1.21        |
+|    std                  | 1.21       ||
+|    std                  | 1.21       ||
+|    value_loss           | 98.2        |
+|    value_loss           | 98.2        |
+|    std                  | 1.21        |
+|    std                  | 1.21        |
+|    std                  | 1.21       ||
+|    std                  | 1.21       ||
+|    std                  | 1.21        |
+|    entropy_loss         | -9.52       |
+|    entropy_loss         | -9.52       |
+|    entropy_loss         | -9.52       |
+|    value_loss           | 76.1       ||
+|    value_loss           | 76.1       ||
+|    std                  | 1.23        |
+|    std                  | 1.23        |
+|    std                  | 1.23        |
+|    std                  | 1.23        |
+|    std                  | 1.23        |
+|    entropy_loss         | -9.58      ||
+|    entropy_loss         | -9.58      ||
+|    value_loss           | 138        ||
+|    value_loss           | 138        ||
+|    value_loss           | 138        ||
+|    std                  | 1.23       ||
+|    std                  | 1.23       ||
+|    std                  | 1.22       ||
+|    entropy_loss         | -9.59      ||
+|    entropy_loss         | -9.59      ||
+|    std                  | 1.22        |
+|    std                  | 1.22        |
+|    value_loss           | 80.3       ||
+|    value_loss           | 80.3       ||
+|    value_loss           | 80.3       ||
+|    std                  | 1.23       ||
+|    std                  | 1.23       ||
+|    std                  | 1.22     | ||
+|    entropy_loss         | -9.56       |
+|    entropy_loss         | -9.56       |
+|    std                  | 1.23        |
+|    std                  | 1.23        |
+|    value_loss           | 249         |
+|    value_loss           | 249         |
+|    std                  | 1.24        |
+|    std                  | 1.24        |
+|    std                  | 1.24        |
+|    std                  | 1.24        |
+|    std                  | 1.25       ||
+|    std                  | 1.25       ||
+|    std                  | 1.25       ||
+|    value_loss           | 95.3       ||
+|    value_loss           | 95.3       ||
+|    std                  | 1.26        |
+|    std                  | 1.26        |
+|    std                  | 1.26        |
+|    entropy_loss         | -9.67       |
+|    entropy_loss         | -9.67       |
+|    std                  | 1.25       ||
+|    std                  | 1.25       ||
+|    std                  | 1.25       ||
+|    value_loss           | 174         |
+|    value_loss           | 174         |
+|    std                  | 1.25       ||
+|    entropy_loss         | -9.62       |
+|    entropy_loss         | -9.62       |
+|    std                  | 1.25        |
+|    std                  | 1.25        |
+|    std                  | 1.26        |
+|    std                  | 1.26        |
+|    std                  | 1.26        |
+|    value_loss           | 234        ||
+|    value_loss           | 234        ||
+|    std                  | 1.26        |
+|    std                  | 1.26        |
+|    std                  | 1.26        |
+|    std                  | 1.26        |
+|    std                  | 1.26        |
+|    std                  | 1.26        |
+|    std                  | 1.27        |
+|    std                  | 1.27        |
+|    std                  | 1.27        |
+|    value_loss           | 113         |
+|    value_loss           | 113         |
+|    value_loss           | 113         |
+|    std                  | 1.25        |
+|    std                  | 1.25        |
+|    std                  | 1.25        |
+|    entropy_loss         | -9.63      ||
+|    entropy_loss         | -9.63      ||
+|    std                  | 1.26       ||
+|    std                  | 1.26       ||
+|    std                  | 1.26       ||
+|    value_loss           | 168         |
+|    value_loss           | 168         |
+|    value_loss           | 168         |
+|    std                  | 1.28        |
+|    entropy_loss         | -9.81      ||
+|    entropy_loss         | -9.81      ||
+|    std                  | 1.3         |
+|    std                  | 1.3         |
+|    std                  | 1.31       ||
+|    std                  | 1.31       ||
+|    std                  | 1.31       ||
+|    value_loss           | 49.2       ||
+|    value_loss           | 49.2       ||
+|    value_loss           | 49.2       ||
+|    std                  | 1.31        |
+|    entropy_loss         | -9.92       |
+|    entropy_loss         | -9.92       |
+|    std                  | 1.33        |
+|    std                  | 1.33        |
+|    std                  | 1.32        |
+|    std                  | 1.32        |
+|    value_loss           | 253        ||
+|    value_loss           | 253        ||
+|    value_loss           | 253        ||
+|    std                  | 1.33       ||
+|    std                  | 1.33       ||
+|    std                  | 1.32        |
+|    std                  | 1.32        |
+|    std                  | 1.32       ||
+|    entropy_loss         | -9.93       |
+|    entropy_loss         | -9.93       |
+|    entropy_loss         | -9.93       |
+|    value_loss           | 109         |
+|    value_loss           | 109         |
+|    std                  | 1.32       ||
+|    std                  | 1.32       ||
+|    std                  | 1.31       ||
+|    std                  | 1.31       ||
+|    std                  | 1.3         |
+|    entropy_loss         | -9.87      ||
+|    entropy_loss         | -9.87      ||
+|    value_loss           | 139         |
+|    value_loss           | 139         |
+|    ep_rew_mean     | 1.02e+03 |       |
+|    std                  | 1.3         |
+|    std                  | 1.3         |
+|    std                  | 1.29        |
+|    std                  | 1.29        |
+|    std                  | 1.3       | |
+|    std                  | 1.3       | |
+|    std                  | 1.3       | |
+|    value_loss           | 165        ||
+|    value_loss           | 141       |||
+|    value_loss           | 141       |||
+|    explained_variance   | 0.929      ||
+|    explained_variance   | 0.929      ||
+|    std                  | 1.32        |
+|    std                  | 1.32        |
+|    std                  | 1.34        |
+|    std                  | 1.34        |
+|    value_loss           | 90.6      | |
+|    value_loss           | 90.6      | |
+|    value_loss           | 90.6      | |
+|    std                  | 1.33        |
+|    entropy_loss         | -10         |
+|    entropy_loss         | -10         |
+|    std                  | 1.33       ||
+|    std                  | 1.33       ||
+|    std                  | 1.33        |
+|    std                  | 1.33        |
+|    value_loss           | 94.1      | |
+|    value_loss           | 94.1      | |
+|    value_loss           | 94.1      | |
+|    std                  | 1.32        |
+|    entropy_loss         | -9.95       |
+|    entropy_loss         | -9.95       |
+|    std                  | 1.32        |
+|    std                  | 1.32        |
+|    std                  | 1.33       ||
+|    std                  | 1.33       ||
+|    std                  | 1.33       ||
+|    value_loss           | 162         |
+|    value_loss           | 162         |
+|    std                  | 1.33        |
+|    entropy_loss         | -9.97       |
+|    entropy_loss         | -9.97       |
+|    std                  | 1.33       ||
+|    std                  | 1.33       ||
+|    std                  | 1.34        |
+|    std                  | 1.34        |
+|    value_loss           | 192         |
+|    value_loss           | 192         |
+|    std                  | 1.36       ||
+|    std                  | 1.36       ||
+|    std                  | 1.35       ||
+|    std                  | 1.35       ||
+|    std                  | 1.36      |||
+|    std                  | 1.36      |||
+|    std                  | 1.37        |
+|    std                  | 1.37        |
+|    value_loss           | 225         |
+|    value_loss           | 225         |
+|    value_loss           | 225         |
+|    std                  | 1.37       ||
+|    std                  | 1.37       ||
+|    std                  | 1.38        |
+|    entropy_loss         | -10.2       |
+|    entropy_loss         | -10.2       |
+|    std                  | 1.39       ||
+|    explained_variance   | 0.943       |
+|    total_timesteps | 751616   |       |
+|    total_timesteps | 751616   |       |
+|    std                  | 1.39        |
+|    std                  | 1.39        |
+|    std                  | 1.39       ||
+|    std                  | 1.39       ||
+|    std                  | 1.39        |
+|    entropy_loss         | -10.2       |
+|    entropy_loss         | -10.2       |
+|    value_loss           | 266         |
+|    value_loss           | 266         |
+|    value_loss           | 266         |
+|    std                  | 1.4         |
+|    entropy_loss         | -10.2      ||
+|    entropy_loss         | -10.2      ||
+|    std                  | 1.4        ||
+|    std                  | 1.4        ||
+|    value_loss           | 177        ||
+|    value_loss           | 177        ||
+|    std                  | 1.41        |
+|    entropy_loss         | -10.2       |
+|    entropy_loss         | -10.2       |
+|    std                  | 1.4        ||
+|    std                  | 1.4        ||
+|    std                  | 1.4         |
+|    std                  | 1.4         |
+|    value_loss           | 164         |
+|    value_loss           | 164         |
+|    std                  | 1.4         |
+|    entropy_loss         | -10.2     | |
+|    entropy_loss         | -10.2     | |
+|    std                  | 1.41       ||
+|    std                  | 1.41       ||
+|    std                  | 1.42      |||
+|    std                  | 1.42      |||
+|    value_loss           | 181         |
+|    value_loss           | 181         |
+|    std                  | 1.42       ||
+|    entropy_loss         | -10.3       |
+|    entropy_loss         | -10.3       |
+|    std                  | 1.43        |
+|    std                  | 1.43        |
+|    std                  | 1.43       ||
+|    std                  | 1.43       ||
+|    value_loss           | 101         |
+|    value_loss           | 101         |
+|    std                  | 1.44        |
+|    std                  | 1.44        |
+|    std                  | 1.45      | |
+|    entropy_loss         | -10.3       |
+|    entropy_loss         | -10.3       |
+|    std                  | 1.45       ||
+|    std                  | 1.45       ||
+|    value_loss           | 191         |
+|    value_loss           | 191         |
+|    value_loss           | 191         |
+|    std                  | 1.45       ||
+|    entropy_loss         | -10.3      ||
+|    entropy_loss         | -10.3      ||
+|    std                  | 1.45        |
+|    std                  | 1.45        |
+|    std                  | 1.45       ||
+|    std                  | 1.45       ||
+|    std                  | 1.45       ||
+|    value_loss           | 196        ||
+|    value_loss           | 196        ||
+|    std                  | 1.46        |
+|    std                  | 1.46        |
+|    std                  | 1.48        |
+|    std                  | 1.48        |
+|    std                  | 1.48        |
+|    std                  | 1.48        |
+|    std                  | 1.49        |
+|    std                  | 1.49        |
+|    value_loss           | 163       | |
+|    value_loss           | 163       | |
+|    value_loss           | 163       | |
+|    std                  | 1.5         |
+|    std                  | 1.5         |
+|    std                  | 1.52        |
+|    std                  | 1.52        |
+|    std                  | 1.51        |
+|    entropy_loss         | -10.5       |
+|    entropy_loss         | -10.5       |
+|    entropy_loss         | -10.5       |
+|    value_loss           | 288         |
+|    value_loss           | 288         |
+|    std                  | 1.52       ||
+|    std                  | 1.52       ||
+|    std                  | 1.53       ||
+|    std                  | 1.53       ||
+|    std                  | 1.53        |
+|    std                  | 1.53        |
+|    std                  | 1.52        |
+|    explained_variance   | 0.914       |
+|    total_timesteps | 851968   |       |
+|    total_timesteps | 851968   |       |
+|    std                  | 1.52        |
+|    std                  | 1.52        |
+|    std                  | 1.54       ||
+|    std                  | 1.54       ||
+|    std                  | 1.55        |
+|    std                  | 1.55        |
+|    std                  | 1.55        |
+|    value_loss           | 180         |
+|    value_loss           | 180         |
+|    std                  | 1.57       ||
+|    entropy_loss         | -10.8      ||
+|    entropy_loss         | -10.8      ||
+|    std                  | 1.58        |
+|    std                  | 1.58        |
+|    std                  | 1.59        |
+|    std                  | 1.59        |
+|    std                  | 1.59        |
+|    value_loss           | 205         |
+|    value_loss           | 205         |
+|    std                  | 1.6        ||
+|    entropy_loss         | -10.9      ||
+|    entropy_loss         | -10.9      ||
+|    std                  | 1.62       ||
+|    std                  | 1.62       ||
+|    std                  | 1.62        |
+|    std                  | 1.62        |
+|    std                  | 1.62        |
+|    value_loss           | 191        ||
+|    value_loss           | 191        ||
+|    std                  | 1.62       ||
+|    std                  | 1.62       ||
+|    std                  | 1.63       ||
+|    std                  | 1.63       ||
+|    std                  | 1.63       ||
+|    entropy_loss         | -10.9       |
+|    entropy_loss         | -10.9       |
+|    entropy_loss         | -10.9       |
+|    value_loss           | 126        ||
+|    value_loss           | 126        ||
+|    std                  | 1.63       ||
+|    std                  | 1.63       ||
+|    std                  | 1.63        |
+|    std                  | 1.63        |
+|    std                  | 1.62       ||
+|    entropy_loss         | -10.8      ||
+|    entropy_loss         | -10.8      ||
+|    entropy_loss         | -10.8      ||
+|    value_loss           | 196        ||
+|    value_loss           | 196        ||
+|    std                  | 1.62        |
+|    std                  | 1.62        |
+|    std                  | 1.62        |
+|    entropy_loss         | -10.8      ||
+|    entropy_loss         | -10.8      ||
+|    std                  | 1.62        |
+|    std                  | 1.62        |
+|    value_loss           | 203        ||
+|    value_loss           | 203        ||
+|    value_loss           | 203        ||
+|    std                  | 1.63       ||
+|    entropy_loss         | -10.9       |
+|    entropy_loss         | -10.9       |
+|    std                  | 1.66       ||
+|    entropy_loss         | -10.9      ||
+|    entropy_loss         | -10.9      ||
+|    value_loss           | 151         |
+|    value_loss           | 151         |
+|    value_loss           | 151         |
+|    std                  | 1.67       ||
+|    std                  | 1.67       ||
+|    std                  | 1.68        |
+|    entropy_loss         | -11         |
+|    entropy_loss         | -11         |
+|    std                  | 1.68        |
+|    std                  | 1.68        |
+|    value_loss           | 214         |
+|    value_loss           | 214         |
+|    value_loss           | 214         |
+|    std                  | 1.7         |
+|    entropy_loss         | -11.1       |
+|    entropy_loss         | -11.1       |
+|    std                  | 1.71        |
+|    std                  | 1.71        |
+|    std                  | 1.71        |
+|    value_loss           | 246         |
+|    value_loss           | 285         |
+|    value_loss           | 285         |
+|    explained_variance   | 0.922       |
+|    total_timesteps      | 946176      |
+|    total_timesteps      | 946176      |
+|    policy_gradient_loss | -0.0501    ||
+|    policy_gradient_loss | -0.0501    ||
+|    policy_gradient_loss | -0.0501    ||
+|    value_loss           | 170        ||
+|    value_loss           | 170        ||
+|    std                  | 1.77        |
+|    entropy_loss         | -11.2      ||
+|    entropy_loss         | -11.2      ||
+|    std                  | 1.78       ||
+|    std                  | 1.78       ||
+|    std                  | 1.76       ||
+|    std                  | 1.76       ||
+|    value_loss           | 250         |
+|    value_loss           | 250         |
+|    value_loss           | 250         |
+|    std                  | 1.77        |
+|    entropy_loss         | -11.3       |
+|    entropy_loss         | -11.3       |
+|    std                  | 1.78       ||
+|    entropy_loss         | -11.3      ||
+|    entropy_loss         | -11.3      ||
+|    entropy_loss         | -11.3      ||
+|    value_loss           | 328        ||
+|    value_loss           | 328        ||
+|    std                  | 1.79       ||
+|    entropy_loss         | -11.3       |
+|    entropy_loss         | -11.3       |
+|    std                  | 1.78        |
+|    std                  | 1.78        |
+|    std                  | 1.79       ||
+|    std                  | 1.79       ||
+|    value_loss           | 171        ||
+|    value_loss           | 171        ||
+|    std                  | 1.81      |||
+|    std                  | 1.81      |||
+|    std                  | 1.81        |
+|    std                  | 1.81        |
+|    std                  | 1.84       ||
+|    entropy_loss         | -11.5      ||
+|    entropy_loss         | -11.5      ||
+|    entropy_loss         | -11.5      ||
+|    value_loss           | 138         |
+|    value_loss           | 138         |
+|    std                  | 1.84       ||
+|    std                  | 1.84       ||
+|    std                  | 1.83        |
+|    entropy_loss         | -11.5     | |
+|    entropy_loss         | -11.5     | |
+|    std                  | 1.83        |
+|    std                  | 1.83        |
+|    std                  | 1.83        |
+|    value_loss           | 199        ||
+|    value_loss           | 199        ||
+|    value_loss           | 199        ||
+/home/ale/miniconda3/envs/rl/lib/python3.8/site-packages/stable_baselines3/common/save_util.py:437: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  th_object = th.load(file_content, map_location=device)
+|    value_loss           | 199        ||
+|    value_loss           | 199        ||
